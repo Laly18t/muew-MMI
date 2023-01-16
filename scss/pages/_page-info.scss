@@ -1,0 +1,14 @@
+div.competences {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0% 3%;
+    width: 100%;
+    align-items: center;
+    grid-auto-flow: row;
+}
+
+div.competences .competences-art {
+    width: 50%;
+    text-align: center;
+}

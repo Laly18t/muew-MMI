@@ -1,0 +1,14 @@
+// Importation des fichier scss dans le main
+
+@import 'base/variables';
+@import 'base/reset';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/page-home';
+@import 'pages/page-presta';
+@import 'pages/page-info';
+@import 'pages/page-contact';
+
+@import 'layout/404';

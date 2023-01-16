@@ -1,0 +1,61 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+    color: white;
+    background-color: $vert;
+}
+
+footer>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: right;
+    clear: right;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer>div>ul>li,
+footer>div p {
+    padding-bottom: 10px;
+}
+
+footer>ul li {
+    padding-right: 10px;
+}
+
+footer>div>div img.footer-logo {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer div.align {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div.align p {
+    padding: 0;
+}
+
+footer div.align img {
+    width: 10%;
+    display: flex;
+    float: right;
+}
+
+footer>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}

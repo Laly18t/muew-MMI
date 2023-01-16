@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "chillax";
+  src: url(../fonts/Chillax-Regular.otf);
+}
+@font-face {
+  font-family: "chillax-medium";
+  src: url(../fonts/Chillax-Medium.otf);
+}
+html {
+  margin: 0 !important;
+  font-family: "chillax";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "chillax-medium";
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Reset css */
+*,
+::before,
+::after {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+header {
+  padding: 1% 8%;
+  color: white;
+  background-color: #1D5C58;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li {
+  margin-left: 25px;
+}
+
+header nav ul li:hover {
+  border-bottom: 1px solid white;
+  border-radius: 2px;
+}
+
+/* changement de langue */
+div.deroulant {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+
+.langage {
+  background-color: skyblue;
+  color: white;
+}
+
+.langage:hover {
+  background-color: blue;
+}
+
+.langage > div {
+  display: none;
+  background-color: skyblue;
+}
+
+.langage > div > a {
+  color: blue;
+  display: block;
+}
+
+.deroulant:hover div {
+  display: block;
+}
+
+/* btn CTA */
+div.btn-CTA {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 80%;
+  flex-direction: row;
+  float: right;
+  clear: right;
+  background-color: #1D5C58;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+div.btn-CTA a {
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.btn-CTA a p {
+  margin-left: 5px;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 8%;
+  color: white;
+  background-color: #1D5C58;
+}
+
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: right;
+  clear: right;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer > div > ul > li,
+footer > div p {
+  padding-bottom: 10px;
+}
+
+footer > ul li {
+  padding-right: 10px;
+}
+
+footer > div > div img.footer-logo {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+footer div.align {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div.align p {
+  padding: 0;
+}
+
+footer div.align img {
+  width: 10%;
+  display: flex;
+  float: right;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+article {
+  padding: 1% 8%;
+}
+
+.h1-def {
+  color: gray;
+  font-size: 13px;
+}
+
+div.competences {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0% 3%;
+  width: 100%;
+  align-items: center;
+  grid-auto-flow: row;
+}
+
+div.competences .competences-art {
+  width: 50%;
+  text-align: center;
+}
+
+.activity div.competences .competences-art {
+  padding: 20px;
+  position: relative;
+  border: 1px solid green;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.activity div.competences .competences-art a {
+  position: absolute;
+  padding: 5px;
+  bottom: -14px;
+  background-color: white;
+}
+
+div.competences {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0% 3%;
+  width: 100%;
+  align-items: center;
+  grid-auto-flow: row;
+}
+
+div.competences .competences-art {
+  width: 50%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */

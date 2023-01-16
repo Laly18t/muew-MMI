@@ -1,0 +1,83 @@
+header {
+    padding: 1% 8%;
+    color: white;
+    background-color: $vert;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+
+header nav ul li:hover {
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+}
+
+/* changement de langue */
+div.deroulant {
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+.langage {
+    background-color: skyblue;
+    color: white;
+}
+
+.langage:hover {
+    background-color: blue;
+}
+
+.langage>div {
+    display: none;
+    background-color: skyblue;
+}
+
+.langage>div>a {
+    color: blue;
+    display: block;
+}
+
+.deroulant:hover div {
+    display: block;
+}
+
+
+/* btn CTA */
+
+div.btn-CTA {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 80%;
+    flex-direction: row;
+    float: right;
+    clear: right;
+    background-color: $vert;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+div.btn-CTA a {
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.btn-CTA a p {
+    margin-left: 5px;
+}

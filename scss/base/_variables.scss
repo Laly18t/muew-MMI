@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "chillax";
+    src: url(../fonts/Chillax-Regular.otf);
+}
+
+@font-face {
+    font-family: "chillax-medium";
+    src: url(../fonts/Chillax-Medium.otf);
+}
+
+$color-title: #FFFFFF;
+$color-subtitle: #FFFFFF;
+$color-text: #1F1F1F;
+$vert: #1D5C58;
+$color-black: #1F1F1F;
+$color-white: #FFFFFF;
+
+$default-font-size: 24px;
+
+$title-font-size: 48px;
+$subtile-font-size: 40px;
+$text-font-size: 20px;
+
+$default-font-family: 'chillax';
+$title-font-family: 'chillax-medium';
+
+html {
+    margin: 0 !important;
+    font-family: $default-font-family;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $title-font-family;
+}
+
+h1 {
+    font-size: $title-font-size;
+}
+
+h2 {
+    font-size: $subtile-font-size;
+}
