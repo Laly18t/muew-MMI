@@ -19,8 +19,8 @@
             </div>
             <div>
                 <img class="footer-logo" src="../wp-content/themes/usmb/images/muew-logo.png" alt="">
-                <p>355 chemin de Monthieux Dessus <br>
-                    73470 Novalaise - France</p>
+                <p>Région Auvergne Rhône-Alpes
+                   <br> Savoie - France</p>
                 <div class="align">
                     <p>+33 (0)6 27 84 59 64</p>
                     <img src="../wp-content/themes/usmb/images/linkedin.svg" alt="">
