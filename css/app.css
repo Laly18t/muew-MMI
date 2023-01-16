@@ -155,6 +155,7 @@ footer > ul li {
 
 footer > div > div img.footer-logo {
   margin: auto;
+  padding-bottom: 20px;
 }
 
 footer div.align {
