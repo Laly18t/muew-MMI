@@ -30,8 +30,10 @@
         <ul>
             <li><a href="muew/mention-legale/">Mentions légales</a></li>
             <li>|</li>
-            <p><a href="muew/plan/">Plan du site</a></p>
+            <p>2023 MUEW</p>
         </ul>
     </footer>
+
+    <?php wp_footer();  ?>
     </body>
 </html>
