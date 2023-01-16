@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <a href="muew/"><img src="../wp-content/themes/usmb/images/Muew.png" alt="muew_logo"></a>
+        <a href="muew/accueil"><img src="../wp-content/themes/usmb/images/Muew.png" alt="muew_logo"></a>
         <nav>
             <ul>
                 <li><a href="muew/accompagnement-operationnel/">Accompagnement Opérationnel</a></li>
