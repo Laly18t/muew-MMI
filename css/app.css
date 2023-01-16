@@ -183,7 +183,7 @@ footer > ul {
 }
 
 article {
-  padding: 1% 8%;
+  margin: 1% 8%;
 }
 
 .h1-def {
@@ -208,7 +208,7 @@ div.competences .competences-art {
 .activity div.competences .competences-art {
   padding: 20px;
   position: relative;
-  border: 1px solid green;
+  border: 1px solid #1D5C58;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
@@ -218,6 +218,28 @@ div.competences .competences-art {
   padding: 5px;
   bottom: -14px;
   background-color: white;
+}
+
+/* presentation creatrice */
+article.creator {
+  color: white;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #1D5C58;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
+
+article.creator img {
+  padding: 2% 0 2% 3%;
+  width: 20%;
+}
+
+article.creator > div {
+  margin: 2% 8% 2% 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 div.competences {
