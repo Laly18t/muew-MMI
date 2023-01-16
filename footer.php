@@ -18,7 +18,7 @@
                 <img src="../wp-content/themes/usmb/images/down.svg" alt="">
             </div>
             <div>
-                <img class="footer-logo" src="../wp-content/themes/usmb/images/Muew.png" alt="">
+                <img class="footer-logo" src="../wp-content/themes/usmb/images/Muew-logo.png" alt="">
                 <p>355 chemin de Monthieux Dessus <br>
                     73470 Novalaise - France</p>
                 <div class="align">
