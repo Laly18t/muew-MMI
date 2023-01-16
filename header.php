@@ -14,7 +14,7 @@
         <a href="muew/accueil"><img src="../wp-content/themes/usmb/images/Muew.png" alt="muew_logo"></a>
         <nav>
             <ul>
-                <li><a href="muew/accompagnement-operationnel/">Accompagnement Opérationnel</a></li>
+                <li><a href="muew/accompagnement-operationnel/">Accompagnement opérationnel</a></li>
                 <li><a href="muew/conseil/">Conseil</a></li>
                 <li><a href="muew/formation/">Formartion</a></li>
                 <li>|</li>
