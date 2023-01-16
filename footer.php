@@ -1,11 +1,11 @@
     <footer>
         <div>
             <ul>
-                <li>Accompagnement Opérationnel</li>
-                <li>Conseil</li>
-                <li>Formartion</li>
-                <li>Mon expérience</li>
-                <li>Me contacter</li>
+                <li><a href="muew/accompagnement-operationnel/">Accompagnement Opérationnel</a></li>
+                <li><a href="muew/conseil/">Conseil</a></li>
+                <li><a href="muew/formation/">Formartion</a></li>
+                <li><a href="muew/experience/">Mon expérience</a></li>
+                <li><a href="muew/contact/">Me contacter</a></li>
             </ul>
             <div class="deroulant">
                 <div class="langage">
@@ -28,9 +28,9 @@
             </div>
         </div>
         <ul>
-            <li>Mentions légales</li>
+            <li><a href="muew/mention-legale/">Mentions légales</a></li>
             <li>|</li>
-            <p>Plan du site</p>
+            <p><a href="muew/plan/">Plan du site</a></p>
         </ul>
     </footer>
     </body>
