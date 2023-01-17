@@ -31,7 +31,7 @@ $image = get_field('image');
     </ul>
     <?php if(!empty(get_field($image))) : ?>
         <img src="<?php echo($image['image']['url']); ?>" >
-<?php endif; ?>
+    <?php endif; ?>
 </article>
 <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
 <article class="activity">
@@ -49,7 +49,7 @@ $image = get_field('image');
 </article>
 
 <article class="creator">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/monika.png" alt="" />
+    <img src="<?php echo($creator['image_creator']['url']); ?>" alt="" />
     <div class="portait">
         <h3><?php echo($creator['title_creator']); ?></h3>
         <p><?php echo($creator['text_creator']); ?></p>

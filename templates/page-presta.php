@@ -16,7 +16,7 @@ $skill = get_field('skill');
 
 <div class="wrap">
     <section class="s1_acc">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo($explanation['icon']['url']); ?>" alt="Icone ampoule">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo($explanation['icon']['filename']); ?>" alt="Icone ampoule">
         <h1><?php echo($explanation['title']); ?></h1>
         <article class="explanation">
             <p><?php echo($explanation['text']); ?></p>
@@ -25,7 +25,7 @@ $skill = get_field('skill');
     </section>
     
     <section class="s2_acc">
-        <?php if(!empty($steps)): ?>
+        <?php if(!empty($steps['title_steps'])): ?>
             <h2><?php echo($steps['title_steps']); ?></h2>
             <article>
                 <ul>
