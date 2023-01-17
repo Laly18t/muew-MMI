@@ -1,14 +1,18 @@
 @font-face {
   font-family: "chillax";
-  src: url(../fonts/Chillax-Regular.otf);
+  src: url("../fonts/Chillax-Regular.otf");
 }
 @font-face {
   font-family: "chillax-medium";
-  src: url(../fonts/Chillax-Medium.otf);
+  src: url("../fonts/Chillax-Medium.otf");
 }
 @font-face {
-  font-family: "Open Sans Light";
-  src: url(../fonts/OpenSans.ttf);
+  font-family: "OpenS-Light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "OpenS";
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 /* Reset css */
 *,
@@ -170,8 +174,8 @@ footer > ul {
 
 html {
   margin: 0 !important;
-  font-family: "Open Sans";
-  font-size: 16px;
+  font-family: "OpenS-Light";
+  font-size: 20px;
   font-weight: lighter;
 }
 
@@ -183,10 +187,12 @@ h3 {
 
 h1 {
   font-size: 48px;
+  line-height: 118%;
 }
 
 h2 {
   font-size: 32px;
+  line-height: auto;
 }
 
 h3 {
@@ -205,7 +211,7 @@ footer {
 }
 footer .footer-menu {
   font-family: "chillax-medium";
-  font-size: 16px;
+  font-size: 20px;
 }
 
 article {
@@ -266,6 +272,78 @@ article.creator > div {
   margin: 2% 8% 2% 2%;
   display: flex;
   flex-direction: column;
+}
+
+.wrap {
+  padding: 0px 10%;
+  font-family: "OpenS-Light";
+  font-size: 20px;
+}
+
+/** ----------------SECTION 1-------------- **/
+.s1_acc {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.s1_acc article {
+  margin: 3% 0;
+}
+
+.s1_acc h1 {
+  padding: 0 10%;
+  margin: auto;
+}
+
+.s1_acc p {
+  width: 50%;
+  margin: auto;
+}
+
+/** ---------------SECTION 2----------------- **/
+.s2_acc {
+  margin: 5% 0;
+}
+
+.trait {
+  display: block;
+  left: 12px;
+  width: 1px;
+  border-radius: 8%;
+  height: 100px;
+  background-color: #1D5C58;
+  position: absolute;
+}
+
+.rond {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.s2_acc article {
+  display: flex;
+  position: relative;
+}
+
+.s2_acc h2 {
+  margin: 0 0 10% 0;
+  text-align: center;
+}
+
+/* --------------LISTE-----------------*/
+.s2_acc ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.s2_acc li {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-bottom: 25px;
 }
 
 div.competences {

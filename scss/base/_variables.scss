@@ -1,16 +1,20 @@
 @font-face {
     font-family: "chillax";
-    src: url(../fonts/Chillax-Regular.otf);
+    src: url("../fonts/Chillax-Regular.otf");
 }
 
 @font-face {
     font-family: "chillax-medium";
-    src: url(../fonts/Chillax-Medium.otf);
+    src: url("../fonts/Chillax-Medium.otf");
 }
 
 @font-face {
-    font-family: "Open Sans Light";
-    src: url(../fonts/OpenSans.ttf);
+    font-family: "OpenS-Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "OpenS";
+    src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 $color-text: #1F1F1F;
@@ -25,8 +29,8 @@ $legend-font-size: 13px;
 $bold: 'chillax-medium';
 
 $intro-font-size: 24px;
-$text-font-size: 16px;
-$default: 'Open Sans';
+$text-font-size: 20px;
+$default: 'OpenS-Light';
 
 $footer-size : 12px;
 $footer-text-font : 'chillax';

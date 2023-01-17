@@ -1,0 +1,74 @@
+.wrap {
+    padding: 0px 10%;
+    font-family: $default;
+    font-size: $text-font-size;
+}
+
+/** ----------------SECTION 1-------------- **/
+
+.s1_acc {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.s1_acc article {
+    margin: 3% 0;
+}
+
+.s1_acc h1 {
+    padding: 0 10%;
+    margin: auto;
+}
+
+.s1_acc p {
+    width: 50%;
+    margin: auto;
+}
+
+/** ---------------SECTION 2----------------- **/
+
+.s2_acc {
+    margin: 5% 0;
+}
+
+.trait {
+    display: block;
+    left: 12px;
+    width: 1px;
+    border-radius: 8%;
+    height: 100px;
+    background-color: $vert;
+    position: absolute;
+}
+
+.rond {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.s2_acc article {
+    display: flex;
+    position: relative;
+}
+
+.s2_acc h2 {
+    margin: 0 0 10% 0;
+    text-align: center;
+}
+
+/* --------------LISTE-----------------*/
+
+.s2_acc ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s2_acc li {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-bottom: 25px;
+}

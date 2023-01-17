@@ -13,10 +13,12 @@ h3 {
 
 h1 {
     font-size: $h1-font-size;
+    line-height: 118%;
 }
 
 h2 {
     font-size: $h2-font-size;
+    line-height: auto;
 }
 
 h3 {
@@ -26,7 +28,7 @@ h3 {
 .h1-def {
     color: $color-legend;
     font-size: $legend-font-size;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 footer {
