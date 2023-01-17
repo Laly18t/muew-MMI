@@ -26,11 +26,7 @@ $image = get_field('image');
         <?php endforeach; ?>
     </ul>
     <?php if(!empty(get_field($image))) : ?>
-        <img 
-    src="<?php echo($image["sizes"]["medium_large"]); ?>" 
-    height="<?php echo($image["sizes"]["medium_large-height"])?>" 
-    width="<?php echo($image["sizes"]["medium_large-width"])?>"
-    alt="<?php echo($image["alt"])?>" >
+        <img src="<?php echo($image['image']['url']); ?>" >
 <?php endif; ?>
 </article>
 <img src="../wp-content/themes/usmb/images/down.svg" alt="">
@@ -39,7 +35,7 @@ $image = get_field('image');
     <div class="competences">
         <?php foreach($service['activity'] as $activity): ?>
             <div class="competences-art"><img alt="" />
-                <img src="<?php echo($activity['icon']); ?>" alt="">
+                <img src="<?php echo($activity['icon']['url']); ?>" alt="">
                 <h3><?php echo($activity['title_activity']); ?></h3>
                 <p><?php echo($activity['text_activity']); ?></p>
                 <a><?php echo($activity['lien_activity']); ?></a>
