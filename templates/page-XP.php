@@ -13,7 +13,7 @@ $value= get_field('value');
 ?>
 
 <article class="priofile">
-    <img src="<?php echo($image["sizes"]["medium_large"]); ?>"
+    <img src="<?php echo($image["image"]["url"]); ?>"
     alt="" >
     <h1><?php echo($profile['title']); ?></h1>
     <p><?php echo($profile['text']); ?></p>
@@ -24,7 +24,7 @@ $value= get_field('value');
     <div class="grid">
     <?php foreach($value['values'] as $values): ?>
         <div class="grid-art"><img alt="" />
-            <img src="<?php echo($values['icon_values']); ?>" alt="">
+            <img src="<?php echo($values['icon_values']['url']); ?>" alt="">
             <h3><?php echo($values['title_values']); ?></h3>
             <p><?php echo($values['text_values']); ?></p>
         </div>

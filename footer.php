@@ -15,15 +15,15 @@
                         <a href="">PL</a>
                     </div>
                 </div>
-                <img src="../wp-content/themes/usmb/images/down.svg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
             </div>
             <div>
-                <img class="footer-logo" src="../wp-content/themes/usmb/images/muew-logo.png" alt="">
+                <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/muew-logo.png" alt="">
                 <p>Région Auvergne Rhône-Alpes
                    <br> Savoie - France</p>
                 <div class="align">
                     <p>+33 (0)6 27 84 59 64</p>
-                    <img src="../wp-content/themes/usmb/images/linkedin.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="">
                 </div>
             </div>
         </div>

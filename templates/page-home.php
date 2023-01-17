@@ -17,8 +17,12 @@ $image = get_field('image');
 ?>
 
 <article class="landing">
-    <h1><?php echo($introduction['title']); ?></h1>
-    <p class="h1-def"><?php echo($introduction['subtitle']); ?></p>
+    <div>
+        <h1><?php echo($introduction['title']); ?></h1>
+        <p class="h1-def"><?php echo($introduction['subtitle']); ?></p>
+        <lottie-player autoplay loop mode="normal" src="<?php echo get_template_directory_uri(); ?>/components/eco-circulaire.json" style="width: 620px">
+        </lottie-player>
+    </div>
     <p><?php echo($introduction['list_title']); ?></p>
     <ul>
         <?php foreach($introduction['list'] as $line): ?>
@@ -29,7 +33,7 @@ $image = get_field('image');
         <img src="<?php echo($image['image']['url']); ?>" >
 <?php endif; ?>
 </article>
-<img src="../wp-content/themes/usmb/images/down.svg" alt="">
+<img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
 <article class="activity">
     <h2><?php echo($service['title']); ?></h2>
     <div class="grid">
@@ -45,7 +49,7 @@ $image = get_field('image');
 </article>
 
 <article class="creator">
-    <img src="../wp-content/themes/usmb/images/monika.png" alt="" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/monika.png" alt="" />
     <div class="portait">
         <h3><?php echo($creator['title_creator']); ?></h3>
         <p><?php echo($creator['text_creator']); ?></p>

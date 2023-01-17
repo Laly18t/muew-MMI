@@ -20,7 +20,7 @@ $skill = get_field('skill');
     <p><?php echo($explanation['text']); ?></p>
 </article>
 
-<img src="../wp-content/themes/usmb/images/down.svg" alt="">
+<img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
 <?php if(!empty($steps)): ?>
     <article>
         <h2><?php echo($steps['title_steps']); ?></h2>
