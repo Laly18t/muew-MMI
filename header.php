@@ -10,44 +10,24 @@
     <?php wp_head(); ?>
 </head>
 
-<?php 
-$langue = 'DE';
-?>
-
 <body>
     <header>
         <a href="muew/accueil"><img src="<?php echo get_template_directory_uri(); ?>/images/Muew.png" alt="muew_logo"></a>
         <nav>
-            <ul>
-                <?php if($langue=='FR'): ?>
-                    <li><a href="muew/accompagnement-operationnel/">Accompagnement opérationnel</a></li>
-                    <li><a href="muew/conseil/">Conseil</a></li>
-                    <li><a href="muew/formation/">Formartion</a></li>
-                    <li>|</li>
-                    <li><a  href="muew/experience/">Mon expérience</a></li>
-                    <li><a href="muew/contact/">Me contacter</a></li>
-
-                <?php elseif($langue=='POL'): ?>
-                    <li><a href="muew/accompagnement-operationnel/">Accompagnement opérationnel</a></li>
-                    <li>|</li>
-                    <li><a  href="muew/experience/">Mon expérience</a></li>
-                    <li><a href="muew/contact/">Me contacter</a></li>
-
-                <?php elseif($langue=='DE'): ?>
-                    <li><a href="muew/accompagnement-operationnel/">Accompagnement opérationnel</a></li>
-                    <li>|</li>
-                    <li><a  href="muew/experience/">Mon expérience</a></li>
-                    <li><a href="muew/contact/">Me contacter</a></li>
-
-                <?php endif; ?>
-            </ul>
+            <?php 
+                wp_nav_menu(array(
+                    'menu' => 'main_menu',
+                    'container_class' => 'NavContainer',
+                    'menu_class' => 'NavList'
+                ))
+            ?>
         </nav>
         <div class="deroulant">
                 <div class="langage">
-                    <a href="?lang=fr"><?php echo $langue ?></a>
+                    <a href="muew/accueil">FR</a>
                     <div>
-                        <a href="?lang=de">DE</a>
-                        <a href="?lang=pol">POL</a>
+                        <a href="startseite">DE</a>
+                        <a href="muew/dom">POL</a>
                     </div>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
@@ -55,4 +35,4 @@ $langue = 'DE';
     </header>
 
     <div class="btn-CTA">
-    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p>Prendre RDV</p></a></div>
+    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p><?php echo($header['rdv']); ?></p></a></div>
