@@ -217,7 +217,7 @@ article {
   font-size: 13px;
 }
 
-div.competences {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 1fr;
@@ -227,11 +227,11 @@ div.competences {
   grid-auto-flow: row;
 }
 
-div.competences .competences-art {
+.grid .grid-art {
   text-align: center;
 }
 
-.activity div.competences .competences-art {
+.activity div.grid .grid-art {
   padding: 20px;
   position: relative;
   border: 1px solid #1D5C58;
@@ -239,7 +239,7 @@ div.competences .competences-art {
   border-top-right-radius: 100px;
 }
 
-.activity div.competences .competences-art a {
+.activity div.grid .grid-art a {
   position: absolute;
   padding: 5px;
   bottom: -14px;

@@ -32,9 +32,9 @@ $image = get_field('image');
 <img src="../wp-content/themes/usmb/images/down.svg" alt="">
 <article class="activity">
     <h2><?php echo($service['title']); ?></h2>
-    <div class="competences">
+    <div class="grid">
         <?php foreach($service['activity'] as $activity): ?>
-            <div class="competences-art">
+            <div class="grid-art">
                 <img src="<?php echo($activity['icon']['url']); ?>" alt="">
                 <h3><?php echo($activity['title_activity']); ?></h3>
                 <p><?php echo($activity['text_activity']); ?></p>

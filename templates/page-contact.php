@@ -7,11 +7,10 @@
 //------------------------------- HEADER ---------------------------
 get_header();
 
-echo( $post->post_content);
-
+$form= get_field('trainings');
 ?>
 
-
+<h1></h1>
 
 <?php
 
