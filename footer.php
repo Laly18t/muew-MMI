@@ -9,10 +9,10 @@
             </ul>
             <div class="deroulant">
                 <div class="langage">
-                    <a href="">FR</a>
+                    <a href="muew/accueil">FR</a>
                     <div>
-                        <a href="">DE</a>
-                        <a href="">PL</a>
+                        <a href="startseite">DE</a>
+                        <a href="muew/dom">POL</a>
                     </div>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">

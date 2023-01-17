@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
     <title>Muew</title>
-    <?php wp_head(); ?>
+    <?php wp_head();
+    
+        $rdv= get_field('rdv');
+    ?>
 </head>
 
 <body>
@@ -35,4 +38,4 @@
     </header>
 
     <div class="btn-CTA">
-    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p><?php echo($header['rdv']); ?></p></a></div>
+    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p><?php echo($rdv); ?></p></a></div>
