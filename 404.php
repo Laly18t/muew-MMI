@@ -1,4 +1,8 @@
+
 <?php
+/* 
+    Template Name: Error404
+*/
 
 //------------------------------- HEADER ---------------------------
 get_header();
@@ -13,6 +17,9 @@ $not_found= get_field('not_found');
     <p><?php echo($not_found['not_found']); ?></p>
 </div>
 
-</body>
+<?php
 
-</html>
+//--------------------------- FOOTER ---------------------------
+get_footer();
+
+?>

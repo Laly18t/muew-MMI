@@ -28,7 +28,7 @@
             </div>
         </div>
         <ul>
-            <li><a href="muew/mention-legale/">Mentions légales</a></li>
+            <li><a href="muew/mentions-legales/">Mentions légales</a></li>
             <li>|</li>
             <p>Copyright &copy; Muew 2023</p>
         </ul>
