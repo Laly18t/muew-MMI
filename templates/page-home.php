@@ -34,7 +34,7 @@ $image = get_field('image');
     <h2><?php echo($service['title']); ?></h2>
     <div class="competences">
         <?php foreach($service['activity'] as $activity): ?>
-            <div class="competences-art"><img alt="" />
+            <div class="competences-art">
                 <img src="<?php echo($activity['icon']['url']); ?>" alt="">
                 <h3><?php echo($activity['title_activity']); ?></h3>
                 <p><?php echo($activity['text_activity']); ?></p>

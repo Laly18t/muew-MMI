@@ -6,25 +6,10 @@
   font-family: "chillax-medium";
   src: url(../fonts/Chillax-Medium.otf);
 }
-html {
-  margin: 0 !important;
-  font-family: "chillax";
+@font-face {
+  font-family: "Open Sans Light";
+  src: url(../fonts/OpenSans.ttf);
 }
-
-h1,
-h2,
-h3 {
-  font-family: "chillax-medium";
-}
-
-h1 {
-  font-size: 48px;
-}
-
-h2 {
-  font-size: 40px;
-}
-
 /* Reset css */
 *,
 ::before,
@@ -181,6 +166,46 @@ footer > ul {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
+}
+
+html {
+  margin: 0 !important;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "chillax-medium";
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.h1-def {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+footer {
+  font-size: 12px;
+  font-family: "chillax";
+}
+footer .footer-menu {
+  font-family: "chillax-medium";
+  font-size: 16px;
 }
 
 article {

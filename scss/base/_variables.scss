@@ -8,37 +8,25 @@
     src: url(../fonts/Chillax-Medium.otf);
 }
 
-$color-title: #FFFFFF;
-$color-subtitle: #FFFFFF;
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(../fonts/OpenSans.ttf);
+}
+
 $color-text: #1F1F1F;
+$color-legend: rgba(0, 0, 0, 0.4);
 $vert: #1D5C58;
-$color-black: #1F1F1F;
 $color-white: #FFFFFF;
 
-$default-font-size: 24px;
+$h1-font-size: 48px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
+$legend-font-size: 13px;
+$bold: 'chillax-medium';
 
-$title-font-size: 48px;
-$subtile-font-size: 40px;
-$text-font-size: 20px;
+$intro-font-size: 24px;
+$text-font-size: 16px;
+$default: 'Open Sans';
 
-$default-font-family: 'chillax';
-$title-font-family: 'chillax-medium';
-
-html {
-    margin: 0 !important;
-    font-family: $default-font-family;
-}
-
-h1,
-h2,
-h3 {
-    font-family: $title-font-family;
-}
-
-h1 {
-    font-size: $title-font-size;
-}
-
-h2 {
-    font-size: $subtile-font-size;
-}
+$footer-size : 12px;
+$footer-text-font : 'chillax';

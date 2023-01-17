@@ -1,6 +1,6 @@
     <footer>
         <div>
-            <ul>
+            <ul class="footer-menu">
                 <li><a href="muew/accompagnement-operationnel/">Accompagnement Opérationnel</a></li>
                 <li><a href="muew/conseil/">Conseil</a></li>
                 <li><a href="muew/formation/">Formartion</a></li>
@@ -11,7 +11,7 @@
                 <div class="langage">
                     <a href="">FR</a>
                     <div>
-                        <a href="">ALL</a>
+                        <a href="">DE</a>
                         <a href="">PL</a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
         <ul>
             <li><a href="muew/mention-legale/">Mentions légales</a></li>
             <li>|</li>
-            <p>2023 MUEW</p>
+            <p>Copyright &copy; Muew 2023</p>
         </ul>
     </footer>
 
