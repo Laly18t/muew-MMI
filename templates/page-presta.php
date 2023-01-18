@@ -21,11 +21,11 @@ $skill = get_field('skill');
         <article class="explanation">
             <p><?php echo($explanation['text']); ?></p>
         </article>
-        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
+        <a href="#down"><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
     </section>
     
     <?php if(!empty($steps['title_steps'])): ?>
-        <section class="s2_acc">
+        <section id="down" class="s2_acc">
             <h2><?php echo($steps['title_steps']); ?></h2>
             <article>
                 <ul>

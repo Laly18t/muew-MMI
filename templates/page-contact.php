@@ -14,8 +14,8 @@ $form= get_field('form');
     <section class="formulaire">
         <h2><?php echo($form['title']); ?></h2>
         <div class="rdv">
-                <p>Prenez rendez-vous directement avec nous</p>
-                <button><i></i>Prendre RDV</button>
+                <p><?php echo($form['calendar']['text']); ?></p>
+                <a class="button" href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><?php echo($form['calendar']['cta']); ?></a>
         </div>
     </section>
 
@@ -23,35 +23,35 @@ $form= get_field('form');
     <section>
         <div class="grid-form">
             <div>
-                <p>Prénom</p>
+                <p><?php echo($form['first_name']); ?></p>
                 <form method="post"></form>
             </div>
             <div>
-                <p>Nom</p>
+                <p><?php echo($form['name']); ?></p>
                 <form method="post"></form>
             </div>
             <div>
-                <p>E-mail</p>
+                <p><?php echo($form['email']); ?></p>
                 <form method="post"></form>
             </div>
             <div>
-                <p>Tel</p>
+                <p><?php echo($form['phone']); ?></p>
                 <form method="post"></form>
             </div>
             <div>
-                <p>Société</p>
+                <p><?php echo($form['society']); ?></p>
                 <form method="post"></form>
             </div>
             <div>
-                <p>Poste/Fonction</p>
+                <p><?php echo($form['function']); ?></p>
                 <form method="post"></form>
             </div>
         </div>
         <div class="form-desc">
-            <p>Que pouvons-nous faire pour vous ?</p>
+            <p><?php echo($form['message']); ?></p>
             <form method="post"></form>
-            <h5>En envoyant ce formulaire, j'autorise ce site à conserver les données transmises.</h5>
-            <button>Envoyer</button>
+            <h5><?php echo($form['confidentiality']); ?></h5>
+            <button class="button"><?php echo($form['send']); ?></button>
         </div>
     </section>
 

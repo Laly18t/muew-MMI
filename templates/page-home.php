@@ -47,7 +47,7 @@ $image = get_field('image');
                     <img src="<?php echo($activity['icon']['url']); ?>" alt="">
                     <h3><?php echo($activity['title_activity']); ?></h3>
                     <p><?php echo($activity['text_activity']); ?></p>
-                    <a><?php echo($activity['lien_activity']); ?></a>
+                    <a href="<?php echo($activity['link_page']); ?>"><?php echo($activity['lien_activity']); ?></a>
                 </div>
             <?php endforeach; ?>
         </div>
@@ -59,7 +59,7 @@ $image = get_field('image');
             <div class="portait">
                 <h3><?php echo($creator['title_creator']); ?></h3>
                 <p><?php echo($creator['text_creator']); ?></p>
-                <a><?php echo($creator['link_creator']); ?></a>
+                <a href="muew/experience" class="button"><?php echo($creator['link_creator']); ?></a>
             </div>
         </div>
     </article>

@@ -3,8 +3,6 @@ article {
 }
 
 .h1-def {
-    color: gray;
-    font-size: 13px;
     margin-bottom: 20px;
 }
 
@@ -31,6 +29,7 @@ article {
 .grid {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 @media screen and (max-width:1200px) {
@@ -70,8 +69,6 @@ article {
 .activity .grid-art a {
     border-radius: 8px;
     padding: 10px 25px;
-    // position: absolute;
-    bottom: 0;
     margin: auto;
     background-color: white;
     color: $vert;

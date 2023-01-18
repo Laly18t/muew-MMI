@@ -175,7 +175,6 @@ footer div.align p {
 }
 
 footer div.align img {
-  width: 10%;
   display: flex;
   float: right;
 }
@@ -208,18 +207,44 @@ h1 {
 
 h2 {
   font-size: 32px;
+  line-height: 44.8px;
 }
 
 h3 {
   font-size: 24px;
+  line-height: 33.6px;
 }
 
 .h1-def {
   color: rgba(0, 0, 0, 0.4);
   font-size: 13px;
   font-weight: bolder;
+  line-height: 119%;
 }
 
+p {
+  font-size: 16px;
+  font-family: "OpenS-Light";
+  line-height: 139%;
+}
+
+a,
+button {
+  font-size: 18px;
+  text-align: center;
+  font-family: "chillax-medium";
+}
+
+footer {
+  font-size: 12px;
+  font-family: "chillax";
+}
+footer .footer-menu {
+  font-family: "chillax-medium";
+  font-size: 20px;
+}
+
+/* page mentions légales */
 .s2_ment {
   margin: 5% 8%;
 }
@@ -233,22 +258,11 @@ h3 {
   color: #1D5C58;
 }
 
-footer {
-  font-size: 12px;
-  font-family: "chillax";
-}
-footer .footer-menu {
-  font-family: "chillax-medium";
-  font-size: 20px;
-}
-
 article {
   padding: 1% 8%;
 }
 
 .h1-def {
-  color: gray;
-  font-size: 13px;
   margin-bottom: 20px;
 }
 
@@ -275,6 +289,7 @@ article {
 .grid {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -312,7 +327,6 @@ article {
 .activity .grid-art a {
   border-radius: 8px;
   padding: 10px 25px;
-  bottom: 0;
   margin: auto;
   background-color: white;
   color: #1D5C58;
@@ -539,7 +553,8 @@ div.competences .competences-art {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
+  width: fit-content;
+  padding: 15px;
   height: 100px;
   margin: auto;
   background-color: #1D5C58;
@@ -547,15 +562,15 @@ div.competences .competences-art {
   color: #FFFFFF;
 }
 
-.rdv button {
-  height: 50px;
-  width: 171px;
-  font-size: 16px;
+.rdv p {
+  width: 50%;
+}
+
+.rdv > a {
   color: #1D5C58;
+  padding: 15px;
   background-color: #FFFFFF;
   border-radius: 8px;
-  font-size: 18px;
-  font-family: "chillax-medium";
 }
 
 /* ------------Formulaire------------ */

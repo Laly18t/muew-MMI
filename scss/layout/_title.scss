@@ -19,18 +19,47 @@ h1 {
 
 h2 {
     font-size: $h2-font-size;
+    line-height: 44.8px;
 }
 
 h3 {
     font-size: $h3-font-size;
+    line-height: 33.6px;
 }
 
 .h1-def {
     color: $color-legend;
     font-size: $legend-font-size;
     font-weight: bolder;
+    line-height: 119%;
 }
 
+
+p {
+    font-size: $corps-font-size;
+    font-family: $default;
+    line-height: 139%;
+}
+
+a,
+button {
+    font-size: $boutton-size;
+    text-align: center;
+    font-family: $bold;
+}
+
+footer {
+    font-size: $footer-size;
+    font-family: $footer-text-font;
+
+    .footer-menu {
+        font-family: $bold;
+        font-size: $text-font-size;
+    }
+}
+
+
+/* page mentions légales */
 .s2_ment {
     margin: 5% 8%;
 }
@@ -42,14 +71,4 @@ h3 {
 
 .s2_ment a {
     color: #1D5C58;
-}
-
-footer {
-    font-size: $footer-size;
-    font-family: $footer-text-font;
-
-    .footer-menu {
-        font-family: $bold;
-        font-size: $text-font-size;
-    }
 }
