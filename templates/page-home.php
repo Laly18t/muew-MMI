@@ -21,7 +21,6 @@ $image = get_field('image');
         <div class="top">
             <div>
                 <h1><?php echo($introduction['title']); ?></h1>
-                <p class="h1-def"><?php echo($introduction['subtitle']); ?></p>
                 <p><?php echo($introduction['list_title']); ?></p>
                 <ul>
                     <?php foreach($introduction['list'] as $line): ?>
