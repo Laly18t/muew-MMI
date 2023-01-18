@@ -21,11 +21,11 @@ $skill = get_field('skill');
         <article class="explanation">
             <p><?php echo($explanation['text']); ?></p>
         </article>
-        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="Fleche vers le bas"></a>
+        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
     </section>
     
-    <section class="s2_acc">
-        <?php if(!empty($steps['title_steps'])): ?>
+    <?php if(!empty($steps['title_steps'])): ?>
+        <section class="s2_acc">
             <h2><?php echo($steps['title_steps']); ?></h2>
             <article>
                 <ul>
@@ -35,35 +35,35 @@ $skill = get_field('skill');
                     <?php endforeach; ?>
                 </ul>
             </article>
-        <?php endif; ?>
-    </section>
-    <section>
-        <?php if(!empty($trainings)): ?>
+        </section>
+    <?php endif; ?>
+    <?php if(!empty($trainings['title'])): ?>
+        <section class="s2_form">
+            <h2><?php echo($trainings['title']); ?></h2>
             <article>
-                <h2><?php echo($trainings['title']); ?></h2>
                 <img src="<?php echo($trainings['schema']['url']); ?>" alt="">
                 <ul>
                     <li><?php echo($trainings['steps']); ?></li>
                     <li><?php echo($trainings['steps_2']); ?></li>
                     <li><?php echo($trainings['steps_3']); ?></li>
                 </ul>
-                <p><?php echo($trainings['explanation_steps']); ?></p>
             </article>
-        <?php endif; ?>
-
-        <?php if(!empty($skill['title'])): ?>
+            <p><?php echo($trainings['explanation_steps']); ?></p>
+        </section>
+    <?php endif; ?>
+    <?php if(!empty($skill['title'])): ?>
+        <section class="s3_form">
+            <h2><?php echo($skill['title']); ?></h2>
             <article>
-                <h3><?php echo($skill['title']); ?></h3>
                 <p><?php echo($skill['text']); ?></p>
-                <div class="skill_logo">
-                    <?php foreach($skill['logo_skill'] as $logo): ?>
-                        <img src="<?php echo($logo['logo']['url']); ?>">
-                    <?php endforeach; ?>
-                </div>
             </article>
-        <?php endif; ?>
-    </section>
-    
+            <article>
+                <?php foreach($skill['logo_skill'] as $logo): ?>
+                    <img src="<?php echo($logo['logo']['url']); ?>">
+                <?php endforeach; ?>
+            </article>
+        </section>
+    <?php endif; ?>
 </div>
 <?php
 

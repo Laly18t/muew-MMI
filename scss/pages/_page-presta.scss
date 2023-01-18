@@ -72,3 +72,70 @@
     gap: 10%;
     margin-bottom: 25px;
 }
+
+.s1_form {
+    text-align: center;
+}
+
+.s1_form article {
+    margin: 5% 0;
+}
+
+/** -----------------SECTION 2----------------- **/
+
+.s2_form {
+    margin: 10% 0;
+    background-color: #1D5C58;
+    border-radius: 270px;
+    /*pour que ce soit rond et pas oval*/
+    color: white;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+}
+
+.s2_form article {
+    align-items: center;
+}
+
+/** --------------LISTE SECTION 2-----------------**/
+
+.s2_form ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.s2_form li {
+    justify-content: space-between;
+    gap: 3%;
+    text-align: center;
+}
+
+.s2_form li:nth-child(2),
+.s2_form li:nth-child(3),
+.s2_form li:nth-child(4) {
+    margin: 0 2.5%;
+}
+
+/*----------------------SECTION 3 --------------------------*/
+
+.s3_form {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.s3_form article:nth-child(2) {
+    padding: 0 17%;
+    margin: 5% 0;
+}
+
+.s3_form article:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}

@@ -1,0 +1,102 @@
+.formulaire h2 {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.rdv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    background-color: $vert;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+
+.rdv button {
+    height: 50px;
+    width: 171px;
+    font-size: 16px;
+    color: $vert;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: $bold;
+}
+
+/* ------------Formulaire------------ */
+
+.grid-form {
+    display: grid;
+    padding-top: 35px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 28px;
+    width: 580px;
+    margin: auto;
+}
+
+
+.grid-form p {
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+
+.grid-form form {
+    width: 280px;
+    height: 50px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+/* ---- description ---- */
+
+.form-desc {
+    width: 580px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.form-desc p {
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+.form-desc form {
+    height: 187px;
+    width: 580px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.form-desc h5 {
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 8px 0 5px 8px;
+}
+
+
+.form-desc button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 171px;
+    margin: auto;
+    font-size: 18px;
+    font-family: $bold;
+    color: #FFFFFF;
+    background-color: $vert;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}

@@ -3,6 +3,7 @@ html {
     font-family: $default;
     font-size: $text-font-size;
     font-weight: lighter;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -18,7 +19,6 @@ h1 {
 
 h2 {
     font-size: $h2-font-size;
-    line-height: auto;
 }
 
 h3 {
@@ -29,6 +29,19 @@ h3 {
     color: $color-legend;
     font-size: $legend-font-size;
     font-weight: bolder;
+}
+
+.s2_ment {
+    margin: 5% 8%;
+}
+
+.s2_ment p {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+.s2_ment a {
+    color: #1D5C58;
 }
 
 footer {

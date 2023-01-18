@@ -25,13 +25,6 @@
                     'menu_class' => 'NavList'
                 ))
             ?>
-            <!--  menu hamburger -->
-            <div id="hamitems">
-                <a href="a.html">First</a>
-                <a href="b.html">Second</a>
-                <a href="c.html">Third</a>
-                <a href="d.html">Forth</a>
-            </div>
         </nav>
         <div class="deroulant">
                 <div class="langage">

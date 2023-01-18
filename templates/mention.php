@@ -11,10 +11,10 @@ $mention= get_field('mention');
 ?>
 
 
-<div class="mention">
+<div class="s2_ment">
     <?php foreach($mention['paragraph'] as $paragraph): ?>
         <h2><?php echo($paragraph['title_paragraph']); ?></h2>
-        <pre><?php echo($paragraph['text_paragraph']); ?></pre>
+        <p><?php echo($paragraph['text_paragraph']); ?></p>
     <?php endforeach; ?>
 </div>
 
