@@ -1,14 +1,45 @@
-div.competences {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0% 3%;
-    width: 100%;
-    align-items: center;
-    grid-auto-flow: row;
+article.profile {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width:1200px) {
+        article.profile {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
 
-div.competences .competences-art {
-    width: 50%;
-    text-align: center;
+article.profile>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+article.profile>div h1 {
+    padding-bottom: 20px;
+}
+
+article.profile>div p {
+    width: 80%;
+}
+
+article.value {
+    h2 {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    div>h3 {
+        padding: 20px 0;
+    }
+
+    div>p {
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
 }

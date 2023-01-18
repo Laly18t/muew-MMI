@@ -15,8 +15,10 @@ $value= get_field('value');
 <article class="profile">
     <img src="<?php echo($profile["picture"]["url"]); ?>"
     alt="" >
-    <h1><?php echo($profile['title']); ?></h1>
-    <p><?php echo($profile['text']); ?></p>
+    <div>
+        <h1><?php echo($profile['title']); ?></h1>
+        <p><?php echo($profile['text']); ?></p>
+    </div>
 </article>
 
 <article class="value">

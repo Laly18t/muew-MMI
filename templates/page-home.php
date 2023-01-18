@@ -65,13 +65,19 @@ $image = get_field('image');
 
     <article class="temoignages">
         <h2><?php echo($testimony['title']); ?></h2>
-        <?php foreach($testimony['testimony_base'] as $base): ?>
-            <div>
-                <h3><?php echo($base['name']); ?></h3>
-                <p><?php echo($base['notice']); ?></p>
-            </div>
-        <?php endforeach; ?>
+        <div class="carousel" data-flickity='{"autoPlay":true}'>
+            <?php foreach($testimony['testimony_base'] as $base): ?>
+                <div class="carousel-cell">
+                    <img class="quotes-U" src="<?php echo get_template_directory_uri(); ?>/images/quotesu.svg" alt="">
+                    <img class="quotes-D" src="<?php echo get_template_directory_uri(); ?>/images/quotesd.svg" alt="">
+                    <h3><?php echo($base['name']); ?></h3>
+                    <p><?php echo($base['notice']); ?></p>
+                </div>
+            <?php endforeach; ?>
+        </div>
     </article>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </section>
 <?php
 

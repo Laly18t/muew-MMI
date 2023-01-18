@@ -37,7 +37,12 @@ header nav ul li:hover {
 
 
 header img.muew-logo {
-    width: 70%;
+    width: 25%;
+}
+
+header>a {
+    text-align: left;
+    width: fit-content;
 }
 
 /* changement de langue */

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Muew</title>
     <?php wp_head();
     
@@ -16,7 +17,7 @@
 
 <body>
     <header>
-        <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/Muew.svg" alt="muew_logo"></a>
+        <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_baseline.svg" alt="muew_logo"></a>
         <nav>
             <?php 
                 wp_nav_menu(array(
@@ -39,4 +40,4 @@
     </header>
 
     <div class="btn-CTA">
-    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p><?php echo($rdv); ?></p></a></div>
+    <a href="https://calendly.com/muew-monika"><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><p><?php echo($rdv); ?></p></a></div>
