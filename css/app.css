@@ -36,6 +36,16 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  /* HIDE HAMBURGER */
+}
+header #hamburger {
+  display: none;
+}
+@media only screen and (max-width: 780px) {
+  header header nav ul {
+    display: none;
+  }
 }
 
 header nav ul {
@@ -50,6 +60,10 @@ header nav ul li {
 header nav ul li:hover {
   border-bottom: 1px solid white;
   border-radius: 2px;
+}
+
+header img.muew-logo {
+  width: 70%;
 }
 
 /* changement de langue */
@@ -228,9 +242,9 @@ article {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 1fr;
   gap: 0% 3%;
-  width: 100%;
+  max-width: 100%;
   align-items: center;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
 }
 
 .grid .grid-art {
@@ -359,6 +373,13 @@ div.competences {
 div.competences .competences-art {
   width: 50%;
   text-align: center;
+}
+
+div .error404 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

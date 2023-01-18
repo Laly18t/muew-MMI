@@ -14,8 +14,8 @@ $mentions_legales= get_field('mentions_legales');
    <footer>
         <div>
             <ul class="footer-menu">
-                <?php foreach($list_left['line'] as $line): ?>
-                    <li><a href="muew/<?php echo($list_left['link']); ?>/"><?php echo($line); ?></a></li>
+                <?php foreach($list_left as $line): ?>
+                    <li><a href="muew/<?php echo($line['link']); ?>/"><?php echo($line['line']); ?></a></li>
                 <?php endforeach; ?>
             </ul>
             <div class="deroulant">

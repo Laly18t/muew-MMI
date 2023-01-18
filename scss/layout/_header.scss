@@ -6,6 +6,18 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+
+    /* HIDE HAMBURGER */
+    #hamburger {
+        display: none;
+    }
+
+    @media only screen and (max-width: 780px) {
+        header nav ul {
+            display: none;
+        }
+    }
 }
 
 header nav ul {
@@ -20,6 +32,12 @@ header nav ul li {
 header nav ul li:hover {
     border-bottom: 1px solid white;
     border-radius: 2px;
+}
+
+
+
+header img.muew-logo {
+    width: 70%;
 }
 
 /* changement de langue */

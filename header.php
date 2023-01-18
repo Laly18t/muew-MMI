@@ -10,12 +10,13 @@
     <?php wp_head();
     
         $rdv= get_field('rdv');
+        $home= get_field('home');
     ?>
 </head>
 
 <body>
     <header>
-        <a href="muew/accueil"><img src="<?php echo get_template_directory_uri(); ?>/images/Muew.png" alt="muew_logo"></a>
+        <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/Muew.svg" alt="muew_logo"></a>
         <nav>
             <?php 
                 wp_nav_menu(array(
@@ -24,12 +25,19 @@
                     'menu_class' => 'NavList'
                 ))
             ?>
+            <!--  menu hamburger -->
+            <div id="hamitems">
+                <a href="a.html">First</a>
+                <a href="b.html">Second</a>
+                <a href="c.html">Third</a>
+                <a href="d.html">Forth</a>
+            </div>
         </nav>
         <div class="deroulant">
                 <div class="langage">
                     <a href="muew/accueil">FR</a>
                     <div>
-                        <a href="startseite">DE</a>
+                        <a href="muew/startseite">DE</a>
                         <a href="muew/dom">POL</a>
                     </div>
                 </div>
