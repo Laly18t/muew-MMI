@@ -25,32 +25,32 @@ $form= get_field('form');
         <div class="grid-form">
                 <div>
                     <label for="first_name"><?php echo($form['first_name']); ?>:</label>
-                    <input type="text" name="first_name" placeholder="<?php echo($form['first_name']); ?>">
+                    <input type="text" name="first_name" placeholder="">
                 </div>
                 <div>
                     <label for="name"><?php echo($form['name']); ?>:</label>
-                    <input type="text" name="name" placeholder="<?php echo($form['name']); ?>">
+                    <input type="text" name="name" placeholder="">
                 </div>
                 <div>
                     <label for="email"><?php echo($form['email']); ?>:</label>
-                    <input type="text" name="email" placeholder="<?php echo($form['email']); ?>">
+                    <input type="text" name="email" placeholder="">
                 </div>
                 <div>
                     <label for="phone"><?php echo($form['phone']); ?>:</label>
-                    <input type="text" name="phone" placeholder="<?php echo($form['phone']); ?>">
+                    <input type="text" name="phone" placeholder="">
                 </div>
                 <div>
                     <label for="society"><?php echo($form['society']); ?>:</label>
-                    <input type="text" name="society" placeholder="<?php echo($form['society']); ?>">
+                    <input type="text" name="society" placeholder="">
                 </div>
                 <div>
                     <label for="function"><?php echo($form['function']); ?></label>
-                    <input type="text" name="function" placeholder="<?php echo($form['function']); ?>">
+                    <input type="text" name="function" placeholder="">
                 </div>
             </div>
             <div class="form-desc">
                 <label for="message"><?php echo($form['message']); ?></label>
-                <input type="text" name="message" placeholder="<?php echo($form['message']); ?>">
+                <input type="text" name="message" placeholder="">
                 
                 <h5><?php echo($form['confidentiality']); ?></h5>
                 <button class="button"><?php echo($form['send']); ?></button>
