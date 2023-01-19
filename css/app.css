@@ -658,6 +658,7 @@ article.value div > p {
   grid-column-gap: 20px;
   grid-row-gap: 28px;
   width: 580px;
+  /*test*/
   margin: auto;
 }
 
