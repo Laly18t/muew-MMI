@@ -53,7 +53,7 @@ $image = get_field('image');
     <article class="line">
         <div class="creator">
             <img src="<?php echo($creator['image_creator']['url']); ?>" alt="portrait Monika" />
-            <div class="portait">
+            <div class="portrait">
                 <h3><?php echo($creator['title_creator']); ?></h3>
                 <p><?php echo($creator['text_creator']); ?></p>
                 <a href="muew/experience" class="button"><?php echo($creator['link_creator']); ?></a>

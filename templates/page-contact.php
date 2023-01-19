@@ -15,7 +15,7 @@ $form= get_field('form');
         <h2><?php echo($form['title']); ?></h2>
         <div class="rdv">
                 <p><?php echo($form['calendar']['text']); ?></p>
-                <a class="button" href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar.svg" alt=""><?php echo($form['calendar']['cta']); ?></a>
+                <a class="button" href=""><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-vert.svg" alt=""><?php echo($form['calendar']['cta']); ?></a>
         </div>
     </section>
 
@@ -44,7 +44,7 @@ $form= get_field('form');
                     <input type="text" name="society" placeholder="">
                 </div>
                 <div>
-                    <label for="function"><?php echo($form['function']); ?></label>
+                    <label for="function"><?php echo($form['function']); ?>:</label>
                     <input type="text" name="function" placeholder="">
                 </div>
             </div>

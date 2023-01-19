@@ -259,6 +259,10 @@ article {
   padding: 1% 8%;
 }
 
+.landing h1 {
+  padding: 2% 0;
+}
+
 .top > div > p {
   padding: 10px 0;
   font-size: 20px;
@@ -268,10 +272,6 @@ article {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.home h3 {
-  margin: auto;
 }
 
 .landing div.top {
@@ -345,7 +345,8 @@ article {
 /* presentation creatrice */
 article.line {
   background-image: url("../images/line.svg");
-  background-size: cover;
+  background-size: 100%;
+  background-position: 100%;
   margin-top: 142px;
   display: flex;
   justify-content: right;
@@ -376,21 +377,26 @@ article div.creator {
 }
 
 article div.portrait {
-  margin: 2% 8% 2% 2%;
+  margin: 2% 4% 2% 2%;
+  width: 100%;
 }
 
-article div.portrait h3 {
-  padding: 10% 0;
+.home .portrait h3 {
+  padding: 20px 0;
 }
 
-article div.portrait a {
+.home .portrait p {
+  margin-bottom: 20px;
+}
+
+.home div.portrait a {
   border-radius: 8px;
   padding: 10px 25px;
   color: #1D5C58;
   background-color: white;
 }
 
-article div.portrait a:hover {
+.home div.portrait a:hover {
   color: white;
   background-color: #1D5C58;
   border: solid 1px white;
@@ -661,9 +667,18 @@ article.value div > p {
 
 .rdv > a {
   color: #1D5C58;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #FFFFFF;
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdv > a > img {
+  padding: 0 10px;
 }
 
 /* ------------Formulaire------------ */

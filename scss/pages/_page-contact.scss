@@ -22,9 +22,18 @@
 
 .rdv>a {
     color: $vert;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
     background-color: #FFFFFF;
     border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rdv>a>img {
+    padding: 0 10px;
 }
 
 /* ------------Formulaire------------ */

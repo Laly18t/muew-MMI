@@ -31,7 +31,7 @@ $skill = get_field('skill');
                 <ul>
                     <li> <div class="rond"> <div class="trait"></div> </div> </li>
                     <?php foreach($steps['list_steps'] as $line): ?>
-                        <li><div class="rond"> <img src="<?php echo get_template_directory_uri(); ?>/images/Rond.svg" alt=""> <div class="trait"></div> </div><?php echo($line['line']); ?></li>
+                        <li><div class="rond"> <img src="<?php echo get_template_directory_uri(); ?>/images/Rond.svg" alt=""> <div class="trait"></div> </div><p><?php echo($line['line']); ?></p></li>
                     <?php endforeach; ?>
                 </ul>
             </article>
