@@ -661,17 +661,16 @@ article.value div > p {
   margin: auto;
 }
 
-.grid-form p {
+.grid-form label {
   color: rgba(0, 0, 0, 0.6);
   padding-left: 8px;
   padding-bottom: 5px;
 }
 
-.grid-form form {
+.grid-form input {
   width: 280px;
   height: 50px;
-  border: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-radius: 15px;
 }
 
@@ -682,13 +681,13 @@ article.value div > p {
   padding-top: 35px;
 }
 
-.form-desc p {
+.form-desc label {
   color: rgba(0, 0, 0, 0.6);
   padding-left: 8px;
   padding-bottom: 5px;
 }
 
-.form-desc form {
+.form-desc input {
   height: 187px;
   width: 580px;
   align-items: center;
