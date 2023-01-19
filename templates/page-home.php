@@ -27,20 +27,18 @@ $image = get_field('image');
                         <li><?php echo($line['line']); ?></li>
                     <?php endforeach; ?>
                 </ul>
-                <?php if(!empty(get_field($image))) : ?>
-                    <img src="<?php echo($image['image']['url']); ?>" >
-                <?php endif; ?>
             </div>
-            <lottie-player autoplay loop mode="normal" src="<?php echo get_template_directory_uri(); ?>/components/eco-circulaire.json" style="width: 1020px; z-index:-2">
+            <lottie-player autoplay loop mode="normal" src="<?php echo get_template_directory_uri(); ?>/components/eco-circulaire.json" style="width: 920px; z-index:-2">
             </lottie-player>
         </div>
+        <a href="#bas"><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
     </article>
 
     <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
 
     <article class="activity">
         <h2><?php echo($service['title']); ?></h2>
-        <div class="grid">
+        <div id="bas" class="grid">
             <?php foreach($service['activity'] as $activity): ?>
                 <div class="grid-art">
                     <img src="<?php echo($activity['icon']['url']); ?>" alt="">

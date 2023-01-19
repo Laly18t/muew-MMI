@@ -20,9 +20,10 @@ $value= get_field('value');
         <p><?php echo($profile['text']); ?></p>
     </div>
 </article>
+<a id="scroll-down" href="#scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
 
 <article class="value">
-    <h2><?php echo($value['title']); ?></h2>
+    <h2 id="scroll"><?php echo($value['title']); ?></h2>
     <div class="grid">
     <?php foreach($value['values'] as $values): ?>
         <div class="grid-art"><img alt="" />

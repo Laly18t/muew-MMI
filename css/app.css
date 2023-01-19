@@ -264,6 +264,12 @@ article {
   font-size: 20px;
 }
 
+.landing > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .home h3 {
   margin: auto;
 }
@@ -339,6 +345,7 @@ article {
 /* presentation creatrice */
 article.line {
   background-image: url("../images/line.svg");
+  background-size: cover;
   margin-top: 142px;
   display: flex;
   justify-content: right;
@@ -370,6 +377,10 @@ article div.creator {
 
 article div.portrait {
   margin: 2% 8% 2% 2%;
+}
+
+article div.portrait h3 {
+  padding: 10% 0;
 }
 
 article div.portrait a {
@@ -471,7 +482,7 @@ article.temoignages h2 {
 
 /** ---------------SECTION 2----------------- **/
 .s2_acc {
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
 .trait {
@@ -497,7 +508,7 @@ article.temoignages h2 {
 }
 
 .s2_acc h2 {
-  margin: 0 0 10% 0;
+  margin: 3% 0 7% 0;
   text-align: center;
 }
 
@@ -523,7 +534,7 @@ article.temoignages h2 {
   margin: 5% 0;
 }
 
-/** -----------------SECTION 2----------------- **/
+/** ------------SECTION 2-------- **/
 .s2_form {
   margin: 10% 0;
   background-color: #1D5C58;
@@ -553,12 +564,7 @@ article.temoignages h2 {
   justify-content: space-between;
   gap: 3%;
   text-align: center;
-}
-
-.s2_form li:nth-child(2),
-.s2_form li:nth-child(3),
-.s2_form li:nth-child(4) {
-  margin: 0 2.5%;
+  margin: 0 4%;
 }
 
 /*----------------------SECTION 3 --------------------------*/
@@ -603,8 +609,19 @@ article.profile > div h1 {
   padding-bottom: 20px;
 }
 
+article.profile img {
+  width: 100%;
+  height: 100%;
+}
+
 article.profile > div p {
   width: 80%;
+}
+
+a#scroll-down {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 article.value h2 {
@@ -617,7 +634,7 @@ article.value div > h3 {
 article.value div > p {
   display: flex;
   align-items: center;
-  width: 80%;
+  margin: 20px;
 }
 
 .formulaire h2 {
@@ -719,11 +736,12 @@ article.value div > p {
   margin-bottom: 20px;
 }
 
-div .error404 {
+div.error404 {
   display: flex;
-  flex-direction: row;
-  margin: auto;
+  flex-direction: column;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */
