@@ -44,6 +44,5 @@ $mentions_legales= get_field('mentions_legales');
         </ul>
     </footer>
 
-    <?php wp_footer();  ?>
     </body>
 </html>

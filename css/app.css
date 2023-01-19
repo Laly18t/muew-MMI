@@ -38,10 +38,6 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  /* HIDE HAMBURGER */
-}
-header #hamburger {
-  display: none;
 }
 @media only screen and (max-width: 780px) {
   header header nav ul {
@@ -52,9 +48,12 @@ header #hamburger {
 header nav ul {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 header nav ul li {
+  font-size: 16px;
+  text-align: center;
   margin-left: 25px;
 }
 
@@ -64,12 +63,12 @@ header nav ul li:hover {
 }
 
 header img.muew-logo {
-  width: 25%;
+  max-width: 200px;
 }
 
 header > a {
   text-align: left;
-  width: fit-content;
+  width: 20%;
 }
 
 /* changement de langue */
@@ -260,8 +259,9 @@ article {
   padding: 1% 8%;
 }
 
-.h1-def {
-  margin-bottom: 20px;
+.top > div > p {
+  padding: 10px 0;
+  font-size: 20px;
 }
 
 .home h3 {
