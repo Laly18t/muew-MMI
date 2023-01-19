@@ -19,7 +19,7 @@ $form= get_field('form');
         </div>
     </section>
 
-    <!-- section formulaire de contacte -->
+    <!-- section formulaire de contact -->
     <section>
         <form method="post" action="">
         <div class="grid-form">

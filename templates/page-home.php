@@ -28,7 +28,7 @@ $image = get_field('image');
                     <?php endforeach; ?>
                 </ul>
             </div>
-            <lottie-player autoplay loop mode="normal" src="<?php echo get_template_directory_uri(); ?>/components/eco-circulaire.json" style="width: 920px; z-index:-2">
+            <lottie-player autoplay loop mode="normal" src="<?php echo get_template_directory_uri(); ?>/components/eco-circulaire.json">
             </lottie-player>
         </div>
         <a href="#bas"><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>

@@ -39,16 +39,11 @@ header {
   align-items: center;
   max-width: 100%;
 }
-@media only screen and (max-width: 780px) {
-  header header nav ul {
-    display: none;
-  }
-}
 
 header nav ul {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  max-width: 100%;
 }
 
 header nav ul li {
@@ -57,6 +52,18 @@ header nav ul li {
   margin-left: 25px;
 }
 
+@media only screen and (max-width: 1000px) {
+  header nav ul {
+    font-size: 10px;
+    flex-direction: column;
+  }
+  header {
+    justify-content: center;
+  }
+  header a img.muew-logo {
+    display: none;
+  }
+}
 header nav ul li:hover {
   border-bottom: 1px solid white;
   border-radius: 2px;
@@ -104,6 +111,7 @@ div.deroulant {
 
 /* btn CTA */
 div.btn-CTA {
+  z-index: 10;
   display: flex;
   position: fixed;
   right: 0;
@@ -280,6 +288,25 @@ article {
   align-items: center;
 }
 
+.landing lottie-player {
+  width: 920px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 1000px) {
+  .landing h1,
+  .activity h2 {
+    font-size: 24px;
+  }
+  .landing div.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing lottie-player {
+    width: 380px;
+  }
+}
 .landing div div li {
   list-style: disc;
   margin: 5px 0 5px 20px;
@@ -304,7 +331,10 @@ article {
     align-items: center;
   }
   .grid-art {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+  }
+  .activity div.grid .grid-art img {
+    padding: 10px;
   }
 }
 .grid .grid-art {
@@ -347,12 +377,19 @@ article.line {
   background-image: url("../images/line.svg");
   background-size: 100%;
   background-position: 100%;
+  background-repeat: no-repeat;
   margin-top: 142px;
   display: flex;
   justify-content: right;
   padding: 0;
 }
 
+@media only screen and (max-width: 1200px) {
+  article.line {
+    margin-top: 0;
+    background-image: none;
+  }
+}
 article div.creator {
   color: white;
   margin-top: 48px;
@@ -371,11 +408,6 @@ article div.creator img {
   width: 30%;
 }
 
-article div.creator {
-  display: flex;
-  flex-direction: row;
-}
-
 article div.portrait {
   margin: 2% 4% 2% 2%;
   width: 100%;
@@ -389,6 +421,16 @@ article div.portrait {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+  article div.creator {
+    width: 100%;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+    text-align: center;
+  }
+}
 .home div.portrait a {
   border-radius: 8px;
   padding: 10px 25px;
@@ -460,6 +502,25 @@ article.temoignages h2 {
   z-index: 1;
 }
 
+@media only screen and (max-width: 1080px) {
+  article.temoignages h2 {
+    margin: 20px 0;
+  }
+  .carousel-cell {
+    width: 590px;
+    height: 300px;
+    font-size: 14px;
+    margin: 36px 100px 63px 0;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .carousel-cell {
+    width: 390px;
+    height: 400px;
+    font-size: 14px;
+    margin: 36px 100px 63px 0;
+  }
+}
 .wrap {
   padding: 0px 10%;
   font-family: "OpenS-Light";

@@ -7,24 +7,34 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-
-    @media only screen and (max-width: 780px) {
-        header nav ul {
-            display: none;
-        }
-    }
 }
 
 header nav ul {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
 }
 
 header nav ul li {
     font-size: 16px;
     text-align: center;
     margin-left: 25px;
+
+}
+
+@media only screen and (max-width:1000px) {
+    header nav ul {
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header a img.muew-logo {
+        display: none;
+    }
 }
 
 header nav ul li:hover {
@@ -76,6 +86,7 @@ div.deroulant {
 /* btn CTA */
 
 div.btn-CTA {
+    z-index: 10;
     display: flex;
     position: fixed;
     right: 0;
