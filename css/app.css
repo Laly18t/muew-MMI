@@ -60,7 +60,7 @@ header nav ul li {
   header {
     justify-content: center;
   }
-  header a img.muew-logo {
+  header > a {
     display: none;
   }
 }
