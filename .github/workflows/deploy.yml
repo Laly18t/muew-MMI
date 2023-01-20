@@ -17,7 +17,7 @@ jobs:
       - name: 📂 SFTP uploader    # Upload to SFTP 
         uses: wangyucode/sftp-upload-action@v1.4.8
         with:
-          host: ${{ secrets.HOST } # Recommended to put the credentials in github secrets.
+          host: ${{ secrets.HOST }} # Recommended to put the credentials in github secrets.
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           forceUpload: true    *    # Optional, Force uploading all files, Default to false(upload only newer files).
