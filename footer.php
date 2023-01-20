@@ -43,6 +43,6 @@ $mention_link= get_field('mention_link');
             <p>Copyright &copy; Muew 2023</p>
         </ul>
     </footer>
-
+<?php wp_footer(); ?>
     </body>
 </html>
