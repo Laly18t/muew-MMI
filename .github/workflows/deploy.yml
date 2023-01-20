@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - main
+name: 🚀 Deploy on production
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY: true
+      DEPLOY_PATH: /wp-content/themes/usmb/
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: 📂 SFTP uploader    # Upload to SFTP 
+        uses: wangyucode/sftp-upload-action@v1.4.8
+        with:
+          host: ${{ secrets.HOST } # Recommended to put the credentials in github secrets.
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }}
+          forceUpload: true                          # Optional, Force uploading all files, Default to false(upload only newer files).
+          localDir: '.'                              # Required, Absolute or relative to cwd.
+          remoteDir: ${{ env.DEPLOY_PATH }}                             # Required, Absolute path only.
+          exclude: '.git*,.DS_Store'    
