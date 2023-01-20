@@ -378,21 +378,14 @@ article {
 /* presentation creatrice */
 article.line {
   background-image: url("../images/line.svg");
-  background-size: 100%;
-  background-position: 100%;
+  background-size: 99%;
   background-repeat: no-repeat;
+  padding: 0;
   margin-top: 142px;
   display: flex;
   justify-content: right;
-  padding: 0;
 }
 
-@media only screen and (max-width: 1200px) {
-  article.line {
-    margin-top: 0;
-    background-image: none;
-  }
-}
 article div.creator {
   color: white;
   margin-top: 48px;
