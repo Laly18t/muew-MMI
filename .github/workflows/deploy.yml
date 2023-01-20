@@ -20,7 +20,8 @@ jobs:
           host: ${{ secrets.HOST }} # Recommended to put the credentials in github secrets.
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
-          forceUpload: true  # Optional, Force uploading all files, Default to false(upload only newer files).
+          dryRun: false
+          forceUpload: false  # Optional, Force uploading all files, Default to false(upload only newer files).
           localDir: '.'   # Required, Absolute or relative to cwd.
           remoteDir: ${{ env.DEPLOY_PATH }}  # Required, Absolute path only.
           exclude: '.git*,.DS_Store'
