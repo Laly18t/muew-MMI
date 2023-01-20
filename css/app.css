@@ -386,6 +386,12 @@ article.line {
   justify-content: right;
 }
 
+@media only screen and (max-width: 1200px) {
+  article.line {
+    margin-top: 0;
+    background-image: none;
+  }
+}
 article div.creator {
   color: white;
   margin-top: 48px;
