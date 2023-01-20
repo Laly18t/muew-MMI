@@ -33,7 +33,9 @@ p {
     line-height: 139%;
 }
 
-a,
+article a,
+div a,
+footer a,
 button {
     font-size: $boutton-size;
     text-align: center;

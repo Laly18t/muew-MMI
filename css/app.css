@@ -80,33 +80,34 @@ header > a {
 
 /* changement de langue */
 div.deroulant {
+  display: flex;
+  text-align: center;
+  width: 30px;
+  height: 25px;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
-  display: inline-block;
+}
+
+div.deroulant img {
+  padding-left: 5px;
+  padding-top: 15px;
 }
 
 .langage {
-  background-color: skyblue;
   color: white;
 }
 
-.langage:hover {
-  background-color: blue;
-}
-
 .langage > div {
-  display: none;
-  background-color: skyblue;
-}
-
-.langage > div > a {
-  color: blue;
-  display: block;
+  transition: 400ms;
+  opacity: 0;
+  background-color: #1D5C58;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .deroulant:hover div {
-  display: block;
+  opacity: 1;
 }
 
 /* btn CTA */
@@ -233,7 +234,9 @@ p {
   line-height: 139%;
 }
 
-a,
+article a,
+div a,
+footer a,
 button {
   font-size: 18px;
   text-align: center;

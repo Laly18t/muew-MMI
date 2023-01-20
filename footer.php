@@ -8,7 +8,7 @@
 $list_left= get_field('list_left');
 $list_right= get_field('list_right');
 $mentions_legales= get_field('mentions_legales');
-
+$mention_link= get_field('mention_link');
 ?>
    
    <footer>
@@ -38,7 +38,7 @@ $mentions_legales= get_field('mentions_legales');
             </div>
         </div>
         <ul>
-            <li><a href="muew/mentions-legales/"><?php echo($mentions_legales); ?></a></li>
+            <li><a href="<?php echo($mention_link); ?>"><?php echo($mentions_legales); ?></a></li>
             <li>|</li>
             <p>Copyright &copy; Muew 2023</p>
         </ul>
