@@ -16,7 +16,7 @@ $skill = get_field('skill');
 
 <div class="wrap">
     <section class="s1_acc">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo($explanation['icon']['filename']); ?>" alt="Icone ampoule">
+        <img src="<?php echo($explanation['icon']['url']); ?>" alt="Icone ampoule">
         <h1><?php echo($explanation['title']); ?></h1>
         <article class="explanation">
             <p><?php echo($explanation['text']); ?></p>
