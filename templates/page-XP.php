@@ -27,7 +27,7 @@ $value= get_field('value');
     <div class="grid">
     <?php foreach($value['values'] as $values): ?>
         <div class="grid-art"><img alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo($values['icon_values']['filename']); ?>" alt="">
+            <img src="<?php echo($values['icon_values']['url']); ?>" alt="">
             <h3><?php echo($values['title_values']); ?></h3>
             <p><?php echo($values['text_values']); ?></p>
         </div>
