@@ -33,7 +33,7 @@
                     <a href="muew/accueil">FR</a>
                     <div>
                         <a href="muew/startseite">DE</a>
-                        <a href="muew/dom">POL</a>
+                        <a href="muew/dom">PL</a>
                     </div>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/down.svg" alt="">
