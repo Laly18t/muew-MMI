@@ -24,7 +24,7 @@ $skill = get_field('skill');
         <a href="#down"><img src="<?php echo get_template_directory_uri(); ?>/images/down-vert.svg" alt="Fleche vers le bas"></a>
     </section>
     
-    <?php if(!empty($steps['title_steps'])): ?>
+    <?php if(!empty($steps['list_steps'])): ?>
         <section id="down" class="s2_acc">
             <h2><?php echo($steps['title_steps']); ?></h2>
             <article>
