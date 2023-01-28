@@ -32,7 +32,7 @@ article.profile>div p {
     }
 
     article.profile>div p {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -55,6 +55,16 @@ article.value {
     div>p {
         display: flex;
         align-items: center;
-        margin: 20px;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    article.value div p {
+        margin: 10px 5px;
+    }
+
+    article.value h2 {
+        padding: 20px;
     }
 }
