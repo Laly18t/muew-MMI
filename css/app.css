@@ -542,6 +542,14 @@ article.temoignages h2 {
     margin: 36px 100px 63px 0;
   }
 }
+@media only screen and (max-width: 580px) {
+  .carousel-cell {
+    width: 340px;
+    height: 400px;
+    font-size: 14px;
+    margin: 32px 70px 53px 0;
+  }
+}
 .wrap {
   padding: 0px 10%;
   font-family: "OpenS-Light";
