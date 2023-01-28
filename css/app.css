@@ -798,7 +798,7 @@ article.value div > p {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: fit-content;
+  width: 50%;
   padding: 15px;
   height: 100px;
   margin: auto;
@@ -809,6 +809,7 @@ article.value div > p {
 
 .rdv p {
   width: 50%;
+  text-align: center;
 }
 
 .rdv > a {
