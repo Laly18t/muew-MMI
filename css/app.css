@@ -747,7 +747,7 @@ article.profile > div p {
   width: 80%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   article.profile img {
     width: 70%;
     height: 70%;
