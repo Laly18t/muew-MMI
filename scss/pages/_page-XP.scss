@@ -29,6 +29,8 @@ article.profile>div p {
     article.profile img {
         width: 70%;
         height: 70%;
+        display: flex;
+        justify-content: center;
     }
 
     article.profile {
