@@ -827,6 +827,19 @@ article.value div > p {
   padding: 0 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .formulaire h2 {
+    margin: 40px 0;
+  }
+  .rdv {
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .rdv p {
+    width: 100%;
+  }
+}
 /* ------------Formulaire------------ */
 .grid-form {
   display: grid;
@@ -897,6 +910,15 @@ article.value div > p {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .grid-form {
+    grid-template-columns: none;
+    width: 100%;
+  }
+  .form-desc {
+    width: 100%;
+  }
+}
 div.error404 {
   display: flex;
   flex-direction: column;

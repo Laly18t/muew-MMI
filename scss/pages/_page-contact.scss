@@ -36,6 +36,22 @@
     padding: 0 10px;
 }
 
+@media screen and (max-width:800px) {
+    .formulaire h2 {
+        margin: 40px 0;
+    }
+
+    .rdv {
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rdv p {
+        width: 100%;
+    }
+}
+
 /* ------------Formulaire------------ */
 
 .grid-form {
@@ -92,7 +108,6 @@
     padding: 8px 0 5px 8px;
 }
 
-
 .form-desc button {
     display: flex;
     justify-content: center;
@@ -107,4 +122,15 @@
     border-radius: 8px;
     margin-top: 8px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .grid-form {
+        grid-template-columns: none;
+        width: 100%;
+    }
+
+    .form-desc {
+        width: 100%;
+    }
 }
