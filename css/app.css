@@ -833,11 +833,13 @@ article.value div > p {
   }
   .rdv {
     border-radius: 40px;
+    width: 70%;
     display: flex;
     flex-direction: column;
   }
   .rdv p {
     width: 100%;
+    text-align: center;
   }
 }
 /* ------------Formulaire------------ */
@@ -923,7 +925,6 @@ article.value div > p {
     width: 100%;
     margin: 0 2%;
     display: grid;
-    justify-items: end;
     justify-content: center;
   }
 }
