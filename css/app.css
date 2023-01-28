@@ -725,12 +725,6 @@ article.profile {
   display: flex;
   flex-direction: row;
 }
-@media screen and (max-width: 1200px) {
-  article.profile article.profile {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 article.profile > div {
   display: flex;
@@ -753,6 +747,15 @@ article.profile > div p {
   width: 80%;
 }
 
+@media screen and (max-width: 1100px) {
+  article.profile {
+    display: flex;
+    flex-direction: column;
+  }
+  article.profile > div p {
+    width: 90%;
+  }
+}
 a#scroll-down {
   width: 100%;
   display: flex;
