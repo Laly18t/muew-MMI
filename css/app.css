@@ -567,6 +567,19 @@ article.temoignages h2 {
   margin: auto;
 }
 
+@media screen and (max-width: 880px) {
+  .s1_acc article {
+    margin: 2% 0;
+  }
+  .s1_acc h1 {
+    padding: 0 5%;
+    margin: auto;
+  }
+  .s1_acc p {
+    width: 100%;
+    margin: auto;
+  }
+}
 /** ---------------SECTION 2----------------- **/
 .s2_acc {
   margin: 3% 0;
@@ -599,6 +612,14 @@ article.temoignages h2 {
   text-align: center;
 }
 
+@media screen and (max-width: 880px) {
+  .s2_acc {
+    margin: 2% 0;
+  }
+  .s2_acc h2 {
+    margin: 2% 0 2% 0;
+  }
+}
 /* --------------LISTE-----------------*/
 .s2_acc ul {
   display: flex;
@@ -621,6 +642,14 @@ article.temoignages h2 {
   margin: 5% 0;
 }
 
+@media screen and (max-width: 880px) {
+  .s1_form article {
+    margin: 2% 0;
+  }
+  .s2_acc li {
+    gap: 5%;
+  }
+}
 /** ------------SECTION 2-------- **/
 .s2_form {
   margin: 10% 0;
@@ -654,6 +683,12 @@ article.temoignages h2 {
   margin: 0 4%;
 }
 
+@media screen and (max-width: 880px) {
+  .s2_form {
+    gap: 5%;
+    border-radius: 0;
+  }
+}
 /*----------------------SECTION 3 --------------------------*/
 .s3_form {
   text-align: center;
@@ -672,6 +707,15 @@ article.temoignages h2 {
   gap: 5%;
 }
 
+@media screen and (max-width: 880px) {
+  .s3_form {
+    margin: 2% 0;
+  }
+  .s3_form article:nth-child(2) {
+    padding: 0 8%;
+    margin: 2% 0;
+  }
+}
 article.profile {
   margin-top: 50px;
   display: flex;
