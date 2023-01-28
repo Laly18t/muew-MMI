@@ -112,7 +112,7 @@ div.deroulant img {
 
 /* btn CTA */
 div.btn-CTA {
-  z-index: 10;
+  z-index: 3;
   display: flex;
   position: fixed;
   right: 0;
@@ -139,6 +139,7 @@ div.btn-CTA a p {
 }
 
 footer {
+  z-index: 4;
   position: relative;
   display: flex;
   flex-direction: column;
