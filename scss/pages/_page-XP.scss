@@ -25,7 +25,12 @@ article.profile>div p {
     width: 80%;
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1000px) {
+    article.profile img {
+        width: 70%;
+        height: 70%;
+    }
+
     article.profile {
         display: flex;
         flex-direction: column;
