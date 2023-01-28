@@ -669,7 +669,6 @@ article.temoignages h2 {
   align-items: center;
 }
 
-/** --------------LISTE SECTION 2-----------------**/
 .s2_form ul {
   list-style: none;
   display: flex;
@@ -686,7 +685,12 @@ article.temoignages h2 {
 @media screen and (max-width: 880px) {
   .s2_form {
     gap: 5%;
-    border-radius: 0;
+    margin: 5% 0;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .s2_form img {
+    width: 70%;
   }
 }
 /*----------------------SECTION 3 --------------------------*/
