@@ -21,7 +21,7 @@ $form= get_field('form');
 
     <!-- section formulaire de contact -->
     <section>
-        <?php echo do_shortcode("[wpforms id="466" title="false"]"); ?>
+        <?php echo(do_shortcode("[wpforms id="466" title="false"]")); ?>
         <form method="post" action="./envoi.php">
             <div class="grid-form">
                 <div>
