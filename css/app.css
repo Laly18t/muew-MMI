@@ -212,12 +212,20 @@ footer > ul {
   footer {
     padding: 2% 4% !important;
     font-size: smaller !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  footer img {
+    display: flex;
+    float: right;
+    clear: right;
   }
   footer > div {
     margin-bottom: 20px !important;
   }
   footer > div > div {
-    align-items: flex-end;
+    align-items: flex-start;
   }
   footer > div > div img.footer-logo {
     margin: 0 !important;

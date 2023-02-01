@@ -64,6 +64,15 @@ footer>ul {
     footer {
         padding: 2% 4% !important;
         font-size: smaller !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    footer img {
+        display: flex;
+        float: right;
+        clear: right;
     }
 
     footer>div {
@@ -71,7 +80,7 @@ footer>ul {
     }
 
     footer>div>div {
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     footer>div>div img.footer-logo {
