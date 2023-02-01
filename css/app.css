@@ -861,8 +861,27 @@ article.value div > p {
   padding: 1% 8%;
 }
 
-.forms_message {
-  width: 50%;
+.formulaire2 input {
+  border: 1px solid !important;
+  border-radius: 15px !important;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+  width: 50% !important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto !important;
+  font-size: 18px !important;
+  font-family: "chillax-medium" !important;
+  color: #FFFFFF !important;
+  background-color: #1D5C58 !important;
+  border-radius: 8px !important;
+  margin-top: 8px !important;
+  margin-bottom: 20px !important;
 }
 
 @media screen and (max-width: 800px) {
