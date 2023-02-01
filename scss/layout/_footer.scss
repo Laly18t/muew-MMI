@@ -75,9 +75,7 @@ footer>ul {
     }
 
     footer>div>div.deroulant {
-        display: flex;
-        float: right;
-        clear: right;
+        align-items: flex-end;
     }
 
     footer>div>* {

@@ -151,8 +151,16 @@
 }
 
 @media screen and (max-width:880px) {
-    .s2_form article {
-        margin: 0;
+
+    .s1_acc,
+    .s2_acc,
+    .s2_form,
+    .s3_form {
+        padding: 0 8%;
+    }
+
+    div.wrap {
+        padding: 0;
     }
 
     .s2_form {
@@ -161,7 +169,6 @@
         gap: 0;
         margin: 3% 0;
         padding: 0 2%;
-        border-radius: 10px;
         width: 100%;
     }
 
