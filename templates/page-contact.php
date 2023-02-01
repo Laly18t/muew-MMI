@@ -20,9 +20,9 @@ $form= get_field('form');
     </section>
 
     <!-- section formulaire de contact -->
-    <section>
+    <section class="formulaire2">
         <?php echo do_shortcode(' [wpforms id="466" title="false"]' ); ?>
-        <form method="post" action="./envoi.php">
+        <!-- <form method="post" action="./envoi.php">
             <div class="grid-form">
                 <div>
                     <label for="first_name"><?php echo($form['first_name']); ?>:</label>
@@ -56,7 +56,7 @@ $form= get_field('form');
                 <h5><?php echo($form['confidentiality']); ?></h5>
                 <input type="submit" class="button" value="<?php echo($form['send']); ?>"></input>
             </div>
-        </form>
+        </form> -->
     </section>
 
 <?php
