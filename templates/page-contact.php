@@ -21,7 +21,7 @@ $form= get_field('form');
 
     <!-- section formulaire de contact -->
     <section>
-        <form method="post" action="../envoi.php">
+        <form method="post" action="./envoi.php">
         <div class="grid-form">
                 <div>
                     <label for="first_name"><?php echo($form['first_name']); ?>:</label>
