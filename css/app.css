@@ -352,7 +352,7 @@ article {
   }
   .landing div.top {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .landing lottie-player {
@@ -475,7 +475,9 @@ article div.portrait {
 @media only screen and (max-width: 1200px) {
   article div.creator {
     width: 100%;
-    border-top-left-radius: 0;
+    border-top: 1px solid #1D5C58;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     border-bottom-left-radius: 0;
     display: flex;
     flex-direction: column;
@@ -576,10 +578,10 @@ article.temoignages h2 {
 }
 @media only screen and (max-width: 580px) {
   .carousel-cell {
-    width: 340px;
-    height: 400px;
+    width: 240px;
+    height: 600px;
     font-size: 14px;
-    margin: 32px 70px 53px 0;
+    margin: 22px 60px 43px 0;
   }
 }
 .wrap {
