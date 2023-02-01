@@ -47,7 +47,8 @@ p {
 article a,
 div a,
 footer a,
-button {
+button,
+input::placeholder {
     font-size: $boutton-size;
     text-align: center;
     font-family: $bold;

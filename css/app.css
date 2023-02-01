@@ -247,7 +247,8 @@ p {
 article a,
 div a,
 footer a,
-button {
+button,
+input::placeholder {
   font-size: 18px;
   text-align: center;
   font-family: "chillax-medium";
@@ -858,6 +859,10 @@ article.value div > p {
   width: 100% !important;
   margin: auto !important;
   padding: 1% 8%;
+}
+
+.forms_message {
+  width: 50%;
 }
 
 @media screen and (max-width: 800px) {
