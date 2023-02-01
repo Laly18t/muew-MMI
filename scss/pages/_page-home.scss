@@ -150,6 +150,7 @@ article div.creator {
 article div.creator img {
     padding: 2%;
     width: 30%;
+    object-fit: cover;
 }
 
 article div.portrait {
@@ -174,6 +175,7 @@ article div.portrait {
         flex-direction: column;
         padding: 2% 8%;
         text-align: center;
+        padding-bottom: 20px;
     }
 }
 
