@@ -854,6 +854,11 @@ article.value div > p {
   }
 }
 /* ------------Formulaire------------ */
+.formulaire2 {
+  width: 100%;
+  margin: auto;
+}
+
 .grid-form {
   display: grid;
   padding-top: 35px;
