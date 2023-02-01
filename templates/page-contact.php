@@ -21,7 +21,7 @@ $form= get_field('form');
 
     <!-- section formulaire de contact -->
     <section class="formulaire2">
-        <?php echo do_shortcode(' [wpforms id="<?php echo($form["contact_id"]); ?>" title="false"]' ); ?>
+        <?php echo do_shortcode(' [wpforms id='<?php echo($form["contact_id"]); ?>' title="false"]' ); ?>
         <h5><?php echo($form['confidentiality']); ?></h5>
         <!-- <form method="post" action="./envoi.php">
             <div class="grid-form">
