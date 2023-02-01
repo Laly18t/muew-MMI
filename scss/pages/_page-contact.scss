@@ -73,10 +73,13 @@ div.wpforms-container-full .wpforms-form .wpforms-field {
 div.wpforms-container-full .wpforms-form input[type=text],
 div.wpforms-container-full .wpforms-form input[type=email],
 div.wpforms-container-full .wpforms-form button[type=submit],
-div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium,
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     border: 1px solid !important;
     border-radius: 15px !important;
+    max-width: 100% !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
     max-width: 100% !important;
 }
 
