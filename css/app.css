@@ -924,7 +924,7 @@ article.value div > p {
   }
   .rdv {
     border-radius: 40px;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
