@@ -53,8 +53,8 @@ $form= get_field('form');
                 <input type="text" name="message" placeholder="">
                 
                 <h5><?php echo($form['confidentiality']); ?></h5>
+                <input type="submit" class="button" value="<?php echo($form['send']); ?>"></input>
             </div>
-            <input type="submit" class="button" value="<?php echo($form['send']); ?>"></input>
         </form>
     </section>
 
