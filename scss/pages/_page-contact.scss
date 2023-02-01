@@ -69,13 +69,13 @@
     margin: auto;
 }
 
-.grid-form label {
+.grid-form .label {
     color: rgba(0, 0, 0, 0.6);
     padding-left: 8px;
     padding-bottom: 5px;
 }
 
-.grid-form input {
+.grid-form .input {
     width: 280px;
     height: 50px;
     border: 1px solid;
@@ -85,7 +85,7 @@
 /* ---- description ---- */
 
 .form-desc {
-    width: 580px;
+    width: 580px;   
     margin: auto;
     padding-top: 35px;
 }
