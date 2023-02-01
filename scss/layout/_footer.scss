@@ -79,6 +79,11 @@ footer>ul {
         justify-content: flex-end;
     }
 
+    div.deroulant>div>div {
+        display: flex;
+        flex-direction: column;
+    }
+
     footer>div>* {
         width: 100% !important;
     }
