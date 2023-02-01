@@ -216,6 +216,9 @@ footer > ul {
     flex-direction: column;
     justify-content: start;
   }
+  footer div {
+    width: 100% !important;
+  }
   footer img {
     display: flex;
     float: right;
@@ -484,14 +487,13 @@ article div.portrait {
   article div.creator {
     width: 100%;
     border-top: 1px solid #1D5C58;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
     border-bottom-left-radius: 0;
     display: flex;
     flex-direction: column;
-    padding: 2% 8%;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px 4%;
   }
 }
 .home div.portrait a {
@@ -586,8 +588,8 @@ article.temoignages h2 {
 }
 @media only screen and (max-width: 580px) {
   .carousel-cell {
-    width: 240px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     font-size: 14px;
     margin: 22px 60px 43px 0;
   }
