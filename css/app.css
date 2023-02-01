@@ -419,7 +419,6 @@ article {
 /* presentation creatrice */
 article.line {
   background-image: url("../images/line.svg");
-  background-size: 99%;
   background-repeat: no-repeat;
   padding: 0;
   margin-top: 142px;
