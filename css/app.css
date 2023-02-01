@@ -221,6 +221,7 @@ footer > ul {
     flex-direction: column;
   }
   footer > div > div.deroulant {
+    display: flex;
     align-items: flex-end;
   }
   footer > div > * {
