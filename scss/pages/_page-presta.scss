@@ -164,6 +164,7 @@
     }
 
     .s2_form {
+        border: 0;
         border-top-left-radius: 140px;
         border-top-right-radius: 140px;
         gap: 0;
@@ -175,7 +176,7 @@
     .s2_form ul {
         display: flex;
         flex-direction: column;
-        margin: 2% 0;
+        margin: 3% 0;
     }
 
     .s2_form ul li {
