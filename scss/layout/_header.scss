@@ -23,6 +23,10 @@ header nav ul li {
 }
 
 @media only screen and (max-width:1000px) {
+    header {
+        padding: 1% 4%;
+    }
+
     header nav ul {
         font-size: 10px;
         flex-direction: column;
