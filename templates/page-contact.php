@@ -21,43 +21,8 @@ $form= get_field('form');
 
     <!-- section formulaire de contact -->
     <section class="formulaire2">
-        <?php echo do_shortcode("[wpforms id="echo($form['contact_id'])" title="false"]"); ?>
+        <?php echo do_shortcode("[wpforms id="echo $form['contact_id']" title="false"]"); ?>
         <h5><?php echo($form['confidentiality']); ?></h5>
-        <!-- <form method="post" action="./envoi.php">
-            <div class="grid-form">
-                <div>
-                    <label for="first_name"><?php echo($form['first_name']); ?>:</label>
-                    <input type="text" name="first_name" placeholder="">
-                </div>
-                <div>
-                    <label for="name"><?php echo($form['name']); ?>:</label>
-                    <input type="text" name="name" placeholder="">
-                </div>
-                <div>
-                    <label for="email"><?php echo($form['email']); ?>:</label>
-                    <input type="text" name="email" placeholder="">
-                </div>
-                <div>
-                    <label for="phone"><?php echo($form['phone']); ?>:</label>
-                    <input type="text" name="phone" placeholder="">
-                </div>
-                <div>
-                    <label for="society"><?php echo($form['society']); ?>:</label>
-                    <input type="text" name="society" placeholder="">
-                </div>
-                <div>
-                    <label for="function"><?php echo($form['function']); ?>:</label>
-                    <input type="text" name="function" placeholder="">
-                </div>
-            </div>
-            <div class="form-desc">
-                <label for="message"><?php echo($form['message']); ?></label>
-                <input type="text" name="message" placeholder="">
-                
-                <h5><?php echo($form['confidentiality']); ?></h5>
-                <input type="submit" class="button" value="<?php echo($form['send']); ?>"></input>
-            </div>
-        </form> -->
     </section>
 
 <?php
