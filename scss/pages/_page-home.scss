@@ -176,7 +176,13 @@ article div.portrait {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 20px 4%;
+        margin: 20px 0;
+        padding: 0 4%;
+    }
+
+    article div.creator img {
+        width: 60%;
+        object-fit: contain;
     }
 }
 
