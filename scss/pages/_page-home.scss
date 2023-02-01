@@ -170,13 +170,13 @@ article div.portrait {
     article div.creator {
         width: 100%;
         border-top: 1px solid $vert;
-        border-top-left-radius: 100px;
-        border-top-right-radius: 100px;
+        border-top-left-radius: 140px;
+        border-top-right-radius: 140px;
         border-bottom-left-radius: 0;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 20px 4%;
+        margin: 20px 4%;
     }
 }
 
