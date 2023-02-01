@@ -62,12 +62,12 @@ footer>ul {
 
 @media only screen and (max-width:750px) {
     footer {
-        padding: 2% 4%;
-        font-size: smaller;
+        padding: 2% 4% !important;
+        font-size: smaller !important;
     }
 
     footer>div {
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
     footer>div>div {
@@ -75,13 +75,13 @@ footer>ul {
     }
 
     footer>div>div img.footer-logo {
-        margin: 0;
+        margin: 0 !important;
         padding-bottom: 20px;
     }
 }
 
 @media only screen and (max-width:750px) {
     footer>* {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
