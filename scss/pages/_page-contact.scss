@@ -57,9 +57,12 @@
 
 /* ------------Formulaire------------ */
 .formulaire2 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     width: 100% !important;
     margin: auto !important;
-    padding: 1% 8%;
+    padding: 1% 8% !important;
 }
 
 .formulaire2 input,
