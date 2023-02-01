@@ -216,6 +216,15 @@ footer > ul {
     flex-direction: column;
     justify-content: start;
   }
+  footer > div {
+    display: flex;
+    flex-direction: column;
+  }
+  footer > div > div.deroulant {
+    display: flex;
+    float: right;
+    clear: right;
+  }
   footer > div > * {
     width: 100% !important;
   }
