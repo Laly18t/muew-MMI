@@ -152,10 +152,18 @@
 
 @media screen and (max-width:880px) {
     .s2_form {
-        gap: 5%;
-        margin: 5% 0;
+        border-top-left-radius: 140px;
+        border-top-right-radius: 140px;
+        gap: 0;
+        margin: 3% 0;
+        padding: 0;
         border-radius: 10px;
         width: 100%;
+    }
+
+    .s2_form ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .s2_form img {
