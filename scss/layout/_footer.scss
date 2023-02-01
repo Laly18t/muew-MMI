@@ -59,3 +59,23 @@ footer>ul {
     align-items: flex-end;
     justify-content: center;
 }
+
+@media only screen and (max-width:750px) {
+    footer {
+        padding: 2% 4%;
+        font-size: smaller;
+    }
+
+    footer>div {
+        margin-bottom: 20px;
+    }
+
+    footer>div>div {
+        align-items: flex-end;
+    }
+
+    footer>div>div img.footer-logo {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
