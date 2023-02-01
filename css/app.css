@@ -745,12 +745,15 @@ article.temoignages h2 {
 }
 
 @media screen and (max-width: 880px) {
+  .s2_form article {
+    margin: 0;
+  }
   .s2_form {
     border-top-left-radius: 140px;
     border-top-right-radius: 140px;
     gap: 0;
     margin: 3% 0;
-    padding: 0;
+    padding: 0 2%;
     border-radius: 10px;
     width: 100%;
   }
