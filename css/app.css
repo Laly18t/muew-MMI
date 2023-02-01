@@ -760,6 +760,10 @@ article.temoignages h2 {
   .s2_form ul {
     display: flex;
     flex-direction: column;
+    margin: 2% 0;
+  }
+  .s2_form ul li {
+    list-style: disc;
   }
   .s2_form img {
     width: 70%;
