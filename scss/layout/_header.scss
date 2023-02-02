@@ -21,8 +21,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
-header nav ul:last-child,
-header nav ul:nth-last-child(n-2) {
+header nav ul:last-child>li>a,
+header nav ul:nth-last-child(n-2)>li>a {
     font-family: "chillax" !important;
 }
 
