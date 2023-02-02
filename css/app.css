@@ -395,7 +395,7 @@ article {
 }
 
 .landing div div li {
-  list-style: disc;
+  list-style: disc #1D5C58;
   margin: 5px 0 5px 25px;
 }
 
