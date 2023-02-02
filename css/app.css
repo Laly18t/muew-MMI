@@ -395,7 +395,7 @@ article {
 }
 
 .landing div div li {
-  list-style: disc #1D5C58;
+  list-style: disc;
   margin: 5px 0 5px 25px;
 }
 
@@ -546,7 +546,7 @@ article div.portrait {
 
 /* ---------------------- témoignages ---------------------- */
 article.temoignages h2 {
-  margin: 132px 0px 144px 0px;
+  margin: 132px auto 144px auto;
   text-align: center;
 }
 
@@ -603,8 +603,11 @@ article.temoignages h2 {
 }
 
 @media only screen and (max-width: 1080px) {
+  article.temoignages {
+    padding: 1% 4%;
+  }
   article.temoignages h2 {
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .carousel-cell {
     width: 590px;
