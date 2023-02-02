@@ -306,7 +306,6 @@ p {
 }
 
 article a,
-div a,
 footer a,
 button,
 input::placeholder {
@@ -430,6 +429,7 @@ article {
 }
 .grid .grid-art {
   text-align: center;
+  height: auto;
 }
 
 .grid .grid-art p {
