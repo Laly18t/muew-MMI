@@ -52,9 +52,8 @@ header nav ul li {
   margin-left: 25px;
 }
 
-header nav ul li:last-child,
-header nav ul li:nth-last-child(-1) {
-  font-weight: lighter;
+header nav ul li:nth-last-child(-n+2) {
+  font-family: "chillax" !important;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -387,6 +386,10 @@ article {
     width: 380px;
   }
 }
+.landing div div ul {
+  margin-right: 15px;
+}
+
 .landing div div li {
   list-style: disc;
   margin: 5px 0 5px 25px;
