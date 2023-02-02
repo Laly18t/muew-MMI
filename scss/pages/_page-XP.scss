@@ -7,13 +7,14 @@ article.profile {
 article.profile>div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 30px;
     justify-content: center;
-    padding: 10px;
 }
 
 article.profile>div h1 {
     padding-bottom: 20px;
+    font-family: 'chillax';
 }
 
 article.profile img {
@@ -36,6 +37,10 @@ article.profile>div p {
     article.profile {
         display: flex;
         flex-direction: column;
+    }
+
+    article.profile>div {
+        align-items: center;
     }
 
     article.profile>div p {
