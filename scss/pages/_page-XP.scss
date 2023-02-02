@@ -8,12 +8,13 @@ article.profile>div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 60px;
     justify-content: center;
 }
 
 article.profile>div h1 {
     padding-bottom: 20px;
+    font-size: $h2-font-size;
     font-family: 'chillax';
 }
 
@@ -41,6 +42,7 @@ article.profile>div p {
 
     article.profile>div {
         align-items: center;
+        margin: 0;
     }
 
     article.profile>div p {
