@@ -52,6 +52,12 @@ header nav ul li {
   margin-left: 25px;
 }
 
+header nav ul li:last-child,
+header nav ul li:nth-last-child(-1) {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 @media only screen and (max-width: 1000px) {
   header {
     padding: 1% 4%;
@@ -78,7 +84,7 @@ header nav ul li:hover {
 }
 
 header img.muew-logo {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 header > a {
@@ -384,7 +390,7 @@ article {
 }
 .landing div div li {
   list-style: disc;
-  margin: 5px 0 5px 20px;
+  margin: 5px 0 5px 25px;
 }
 
 .activity h2 {
@@ -431,6 +437,7 @@ article {
 
 .activity div.grid .grid-art img {
   padding: 50px;
+  width: 90%;
 }
 
 .activity .grid-art a {
