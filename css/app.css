@@ -387,7 +387,7 @@ article {
   }
 }
 .landing div div ul {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .landing div div li {
@@ -407,6 +407,9 @@ article {
 }
 
 @media screen and (max-width: 1200px) {
+  .landing div div ul {
+    margin-left: 0;
+  }
   .grid {
     display: flex;
     flex-direction: column;
@@ -425,7 +428,7 @@ article {
 }
 
 .grid .grid-art p {
-  padding: 0 20px;
+  padding: 0 24px;
   margin-bottom: 30px;
 }
 
@@ -441,13 +444,12 @@ article {
 
 .activity div.grid .grid-art img {
   padding: 50px;
-  width: 90%;
 }
 
 .activity .grid-art a {
   border-radius: 8px;
   padding: 10px 25px;
-  margin: 10px auto 0 auto;
+  margin: 20px auto 0 auto;
   background-color: white;
   color: #1D5C58;
 }
