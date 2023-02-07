@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
+    <meta name="google-site-verification" content="_BgA0PwSgF5O_17ye03zLYW7nSiKUcwUy1uIucqI2bw" />
     <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/images/muew-logo.png">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Muew</title>
