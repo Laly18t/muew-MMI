@@ -13,7 +13,7 @@ get_header();
 
 
 <div class="s2_ment">
-    <?php foreach(the_field('mention'['paragraph']) as $paragraph): ?>
+    <?php foreach(get_field('mention'['paragraph']) as $paragraph): ?>
         <h2><?php echo($paragraph['title_paragraph']); ?></h2>
         <p><?php echo($paragraph['text_paragraph']); ?></p>
     <?php endforeach; ?>
