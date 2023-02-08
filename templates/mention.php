@@ -8,6 +8,7 @@
 get_header();
 
 $mention= get_field('mention');
+var_dump($mention)
 ?>
 
 
