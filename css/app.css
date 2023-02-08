@@ -73,7 +73,7 @@ header nav ul:nth-last-child(n-2) > li > a {
   }
   header {
     justify-content: center;
-    background-image: url("../images/muew-logo.png");
+    background-image: url("../../images/muew-logo.png");
     background-position: left top;
     background-size: 10%;
   }
