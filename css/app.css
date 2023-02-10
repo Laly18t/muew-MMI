@@ -444,6 +444,9 @@ article {
   .grid .grid-art {
     height: 418px;
   }
+  .grid .grid-art > :first-child {
+    height: 448px;
+  }
 }
 .grid .grid-art p {
   padding: 0 24px;
