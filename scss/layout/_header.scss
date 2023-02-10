@@ -9,7 +9,7 @@ header {
     max-width: 100%;
 }
 
-header :nth-child(2) {
+header a:nth-child(2) {
     display: none;
 }
 
@@ -53,7 +53,7 @@ header nav ul:nth-last-child(n-2)>li>a {
         display: none;
     }
 
-    header>:nth-child(2) {
+    header>a:nth-child(2) {
         display: inline;
     }
 }
