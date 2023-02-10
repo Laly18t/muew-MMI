@@ -7,7 +7,7 @@
 //------------------------------- HEADER ---------------------------
 get_header();
 
-$mention= get_field('mention');
+$mention= get_field('mentions');
 var_dump($mention);
 ?>
 
