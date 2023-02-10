@@ -78,7 +78,7 @@ header nav ul:nth-last-child(n-2) > li > a {
   header {
     justify-content: space-around;
   }
-  header :first-child {
+  header a:first-child {
     display: none;
   }
   header :nth-child(2) {
