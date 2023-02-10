@@ -81,6 +81,7 @@ div.deroulant {
     flex-direction: row;
     align-items: flex-start;
     position: relative;
+    z-index: 5;
 }
 
 div.deroulant img {
