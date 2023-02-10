@@ -20,7 +20,7 @@
 <body>
     <header>
         <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_baseline.svg" alt="muew_logo"></a>
-        <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/muew-logo.svg" alt="muew_logo"></a>
+        <a href="<?php echo($home); ?>"><img class="muew-logo" src="<?php echo get_template_directory_uri(); ?>/images/muew-logo.png" alt="muew_logo"></a>
         <nav>
             <?php 
                 wp_nav_menu(array(
