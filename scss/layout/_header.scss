@@ -105,6 +105,11 @@ div.deroulant img {
     opacity: 1;
 }
 
+@media only screen and (max-width:800px) {
+    div.deroulant {
+        width: 45px;
+    }
+}
 
 /* btn CTA */
 
