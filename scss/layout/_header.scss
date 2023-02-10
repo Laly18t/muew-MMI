@@ -9,7 +9,7 @@ header {
     max-width: 100%;
 }
 
-header a:nth-child(2) {
+header>a:nth-child(2) {
     display: none;
 }
 
