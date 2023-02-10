@@ -92,6 +92,12 @@ article {
     height: 440px;
 }
 
+@media screen and (max-width:880px) {
+    .grid .grid-art {
+        height: 418px;
+    }
+}
+
 .grid .grid-art p {
     padding: 0 24px;
     margin-bottom: 30px
@@ -113,8 +119,10 @@ article {
 
 .activity .grid-art a {
     border-radius: 8px;
-    padding: 10px 25px;
-    margin: 20px auto 0 auto;
+    padding: 13px 25px;
+    position: absolute;
+    margin: auto;
+    bottom: -24px;
     background-color: white;
     color: $vert;
 }
