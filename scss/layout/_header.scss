@@ -9,6 +9,10 @@ header {
     max-width: 100%;
 }
 
+header:nth-child(2) {
+    display: none;
+}
+
 header nav ul {
     display: flex;
     flex-direction: row;
@@ -51,8 +55,12 @@ header nav ul:nth-last-child(n-2)>li>a {
         background-repeat: no-repeat;
     }
 
-    header>a {
+    header:nth-child(1) {
         display: none;
+    }
+
+    header:nth-child(2) {
+        display: inline;
     }
 }
 
