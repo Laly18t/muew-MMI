@@ -33,6 +33,7 @@ header nav ul:nth-last-child(n-2)>li>a {
 @media only screen and (max-width:800px) {
     header {
         padding: 1% 2%;
+        justify-content: space-around;
     }
 
     header nav ul {
@@ -47,15 +48,11 @@ header nav ul:nth-last-child(n-2)>li>a {
         margin-left: 0;
     }
 
-    header {
-        justify-content: space-around;
-    }
-
-    header a:first-child {
+    header>a:first-child {
         display: none;
     }
 
-    header :nth-child(2) {
+    header>:nth-child(2) {
         display: inline;
     }
 }
