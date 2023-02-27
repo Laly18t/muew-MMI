@@ -287,15 +287,6 @@ header {
   font-size: 16px;
 }
 
-@media screen and (max-width: 880px) {
-  html,
-  article a,
-  div a,
-  footer a,
-  button {
-    font-size: 14px;
-  }
-}
 h1,
 h2,
 h3 {
@@ -342,6 +333,13 @@ footer .footer-menu {
 }
 
 @media screen and (max-width: 880px) {
+  html,
+  article a,
+  div a,
+  footer a,
+  button {
+    font-size: 14px;
+  }
   h1,
   h2,
   h3,

@@ -10,16 +10,7 @@ header {
     font-size: $corps-font-size;
 }
 
-@media screen and (max-width:880px) {
 
-    html,
-    article a,
-    div a,
-    footer a,
-    button {
-        font-size: $responsive-text;
-    }
-}
 
 h1,
 h2,
@@ -68,6 +59,14 @@ footer {
 }
 
 @media screen and (max-width:880px) {
+
+    html,
+    article a,
+    div a,
+    footer a,
+    button {
+        font-size: $responsive-text;
+    }
 
     h1,
     h2,
