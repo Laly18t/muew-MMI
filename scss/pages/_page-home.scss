@@ -97,10 +97,6 @@ article {
     .grid .grid-art {
         height: 458px !important;
     }
-
-    .grid .grid-art a {
-        left: 65px;
-    }
 }
 
 .grid .grid-art p {
@@ -138,6 +134,11 @@ article {
     border: 1px solid $vert;
     border-radius: 8px;
     background-color: white;
+}
+@media screen and (max-width:880px) {
+    .grid .grid-art a {
+        left: 65px !important;
+    }
 }
 
 /* presentation creatrice */

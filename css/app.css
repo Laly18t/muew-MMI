@@ -452,9 +452,6 @@ article {
   .grid .grid-art {
     height: 458px !important;
   }
-  .grid .grid-art a {
-    left: 65px;
-  }
 }
 .grid .grid-art p {
   padding: 0 24px;
@@ -493,6 +490,11 @@ article {
   background-color: white;
 }
 
+@media screen and (max-width: 880px) {
+  .grid .grid-art a {
+    left: 65px !important;
+  }
+}
 /* presentation creatrice */
 article.line {
   background-image: url("../images/line.svg");
