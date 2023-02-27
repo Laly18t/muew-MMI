@@ -452,7 +452,7 @@ article {
 
 @media screen and (max-width: 880px) {
   .grid .grid-art {
-    height: 418px;
+    height: 458px !important;
   }
 }
 .grid .grid-art p {
